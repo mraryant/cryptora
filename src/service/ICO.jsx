@@ -166,7 +166,7 @@ const ICO = () => {
           </div>
           <div id="icoright">
             <div>
-              <img src={icoimg2} style={{ width: "100%", height: "100%" }} alt="" />
+              <img src={icoimg2} style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
 
             </div>
@@ -317,7 +317,7 @@ const ICO = () => {
           </div>
           <div id="icoright">
             <div>
-              <img src={icoimg1} style={{ width: 300, height: 300 }} alt="" />
+              <img src={icoimg1} style={{ width: 300, height: 300 }} alt="I am Just comming ^_^" />
 
             </div>
           </div>
@@ -334,7 +334,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop1.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop1.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title1}</div>
                 <div className="n5hover_content">
                   <p> {data.content1}</p>
@@ -346,7 +346,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop2.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop2.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title3}</div>
                 <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
@@ -357,7 +357,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop3.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop3.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title4}</div>
                 <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
@@ -367,7 +367,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop4.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop4.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title5} </div>
                 <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
@@ -377,7 +377,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop5.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop5.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title2}</div>
                 <div className="n5hover_content">
                   <p>{data.content2}</p>
@@ -388,7 +388,7 @@ const ICO = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ICO/icop6.webp" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ICO/icop6.webp" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title6}</div>
                 <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>

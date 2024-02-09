@@ -22,7 +22,7 @@ const WhatsPopup = () => {
                 id="wa-popup">
                 <div id="wa-head">
                     <div  >
-                         <img src={whatsapp} alt="" style={{  width: 35, height: 35 }} />
+                         <img src={whatsapp} alt="I am Just comming ^_^" style={{  width: 35, height: 35 }} />
                     </div>
                 </div>
                 <div id="wa-body">
@@ -32,7 +32,7 @@ const WhatsPopup = () => {
                     </div>
                     <form id='wa-form' action="">
                         <input id='wa-input' className="form-control" type="text" placeholder="Write your massage ..." aria-label="default input example"></input>
-                        <a id='wa-button' href="https://bit.ly/3GnnFUJ" target='blank' > <img style={{ height: "25px", marginLeft: "5px", width: "20px" }} src={whatsappsend} alt="" /> </a>
+                        <a id='wa-button' href="https://bit.ly/3GnnFUJ" target='blank' > <img style={{ height: "25px", marginLeft: "5px", width: "20px" }} src={whatsappsend} alt="I am Just comming ^_^" /> </a>
                             {/* <button id='wa-button' type='submit'> </button> */}
                         </form>
                 </div>

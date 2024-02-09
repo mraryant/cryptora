@@ -140,7 +140,7 @@ const CryptoWallet = () => {
                     </div>
                     <div id="cwright">
                         <div className='cwrright'>
-                            <img src={cwimg} style={{ width: "100%", height: "100%" }} alt="" />
+                            <img src={cwimg} style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
                         </div>
                     </div>
                 </div>

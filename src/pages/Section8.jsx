@@ -24,7 +24,7 @@ const Section8 = () => {
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="" />
+                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -49,7 +49,7 @@ const Section8 = () => {
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="" />
+                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -74,7 +74,7 @@ const Section8 = () => {
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="" />
+                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -97,7 +97,7 @@ const Section8 = () => {
 
         </div>
         {/* <div className="logo-container2">
-<img src={Arrow} className='arimg' alt="" />
+<img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
 <div className="logo-container">
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
     <path id="circlePath"  fill="none" stroke-width="4" d="

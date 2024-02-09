@@ -156,7 +156,7 @@ const Blockchain = () => {
           </div>
           <div id="blockchainright">
             <div>
-              <img src="/Blockchain/block.png" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Blockchain/block.png" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
 
             </div>
@@ -287,7 +287,7 @@ const Blockchain = () => {
           </div>
           <div id="blockchainright">
             <div>
-              <img src="/Blockchain/block2.png" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Blockchain/block2.png" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
             </div>
           </div>
@@ -304,7 +304,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc21.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc21.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title1}</div>
                 <div className="n5hover_content">
                   <p> {data.content1}</p>
@@ -315,7 +315,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc22.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc22.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title2}</div>
                 <div className="n5hover_content">
                   <p>{data.content2}</p>
@@ -326,7 +326,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc23.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc23.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title3}</div>
                 <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
@@ -336,7 +336,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc24.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc24.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title4}</div>
                 <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
@@ -347,7 +347,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc25.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc25.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title5}</div>
                 <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
@@ -358,7 +358,7 @@ const Blockchain = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Blockchain/bc26.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Blockchain/bc26.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title6}</div>
                 <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>

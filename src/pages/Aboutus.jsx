@@ -49,7 +49,7 @@ const Aboutus = () => {
                     </div>
                     {/* <div id="ABTright">
                     <div className='ABTrright'>
-                        <img src="/src/assets/servic-hero-right.png" style={{ width: "100%", height: "100%" }} alt="" />
+                        <img src="/src/assets/servic-hero-right.png" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
 
                     </div>
@@ -66,7 +66,7 @@ const Aboutus = () => {
                                 <source srcSet="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" type="image/gif" />
 
                                 {/* Fallback source for browsers that do not support "srcset" */}
-                                <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="" />
+                                <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="I am Just comming ^_^" />
                             </picture>
                         </div>
                     </div>

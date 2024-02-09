@@ -14,7 +14,7 @@ const S3Cards = (props) => {
             <span className="circle circle3"></span>
             <span className="circle circle4"></span>
             <span className="circle circle5">
-              <img src={S3Logo} style={{ width: 30, height: 30 }} alt="" />
+              <img src={S3Logo} style={{ width: 30, height: 30 }} alt="I am Just comming ^_^" />
             </span>
 
           </div>

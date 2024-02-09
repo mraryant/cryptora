@@ -31,7 +31,7 @@ const Landing = () => {
         <>
             {/* <nav style={{ backgroundColor: "black", margin:"20px 60px" }} className="">
                 <a className="navbar-brand" href="/">
-                    <img src={Logo} alt="" style={{ width: "150px", height: "40px" }} />
+                    <img src={Logo} alt="I am Just comming ^_^" style={{ width: "150px", height: "40px" }} />
                 </a>
             </nav> */}
 
@@ -49,13 +49,13 @@ const Landing = () => {
                         <p className="socialhead">Follow us on Social Media</p>
                         <div className=" d-flex gap-5 mt-3 si">
                             <a href="https://bit.ly/3GnnFUJ">
-                                <img src={wa} style={{ padding: "3px", backgroundColor: "white", borderRadius: 100, width: 30, height: 30 }} alt="" />
+                                <img src={wa} style={{ padding: "3px", backgroundColor: "white", borderRadius: 100, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                             </a>
                             <a href="https://www.instagram.com/Cryptoratech/">
-                                <img src={it} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                                <img src={it} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                             </a>
                             <a href="https://t.me/Cryptoracommunity">
-                                <img src={tg} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                                <img src={tg} style={{ backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                             </a>
                         </div>
                     </div>

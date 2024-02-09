@@ -37,10 +37,10 @@ const TopNavbar = () => {
       <nav className="topclass bg-black   navbar navbar-expand-lg nav" key={refreshKey}>
 
         <div className="container-fluid">
-          <a className="navbar-brand" href="/"><img src={Logo} alt="" style={{ width: "90%", height: "90%" }} />
+          <a className="navbar-brand" href="/"><img src={Logo} alt="I am Just comming ^_^" style={{ width: "90%", height: "90%" }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span ><img src="/apps.png" alt="" /></span>
+            <span ><img src="/apps.png" alt="I am Just comming ^_^" /></span>
           </button>
           <div className="collapse navbar-collapse navcollapse" id="navbarSupportedContent">
             <div className="nav1 navbar-nav me-auto mb-2 mb-lg-0">

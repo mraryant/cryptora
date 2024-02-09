@@ -29,7 +29,7 @@ const ContactUs = () => {
     <>
       
 
-      <img src={conbg} id='conbg' alt="" />
+      <img src={conbg} id='conbg' alt="I am Just comming ^_^" />
       <div className="contactmain container">
         <div className="contactsec1">
           <div className="contactbutton">
@@ -46,7 +46,7 @@ const ContactUs = () => {
           <p className='detail-para'>Get all the details here</p>
           <div className='contact-card'>
             <div className="contact1">
-              <img src={cuimg} alt="" />
+              <img src={cuimg} alt="I am Just comming ^_^" />
               <p className='cuhead'>Call Us</p>
               <div className='contact-no'>
                 <a className='contact-number' href="tel:8871192290">+918770632170</a>
@@ -54,7 +54,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="contact1">
-              <img src={cuimg} alt="" />
+              <img src={cuimg} alt="I am Just comming ^_^" />
               <p className='cuhead'>Connect Us</p>
               <div className='contact-no' style={{ flexDirection: "column" }}>
 
@@ -64,7 +64,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="contact1">
-              <img src={cuimg} alt="" />
+              <img src={cuimg} alt="I am Just comming ^_^" />
               <p className='cuhead'>Address</p>
               <div className='contact-no'>
 

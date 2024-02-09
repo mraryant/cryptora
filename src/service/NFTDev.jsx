@@ -1,4 +1,4 @@
-import React from 'react'
+
 // import TopNavbar from '../component/TopNavbar'
 import './ICO.css'
 import Footer from '../component/Footer'
@@ -162,7 +162,7 @@ const NFTDev = () => {
             </div>
           </div>
           <div id="nftright2">
-            <img src="./NFTDev/nftfront.png" style={{ width: "70%", height: "70%" }} alt="" />
+            <img src="./NFTDev/nftfront.png" style={{ width: "70%", height: "70%" }} alt="I am Just comming ^_^" />
           </div>
         </div>
 
@@ -273,7 +273,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/ne.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/ne.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title1}</div>
                 <div className="n5hover_content">
                   <p> {data.content1}</p>
@@ -284,7 +284,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s52.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s52.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title2}</div>
                 <div className="n5hover_content">
                   <p>{data.content2}</p>
@@ -295,7 +295,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s53.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s53.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title3}</div>
                 <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
@@ -306,7 +306,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s54.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s54.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title4}</div>
                 <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
@@ -316,7 +316,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s55.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s55.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title5} </div>
                 <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
@@ -326,7 +326,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s56.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s56.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title6}</div>
                 <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>
@@ -336,7 +336,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s57.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s57.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title7}</div>
                 <div className="n5hover_content">
                   <p>{data.content7}</p>      </div>
@@ -346,7 +346,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s58.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s58.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title8}</div>
                 <div className="n5hover_content">
                   <p>{data.content8}</p>      </div>
@@ -356,7 +356,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s59.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s59.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title9}</div>
                 <div className="n5hover_content">
                   <p>{data.content9}</p>      </div>
@@ -366,7 +366,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s510.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s510.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title10}</div>
                 <div className="n5hover_content">
                   <p>{data.content10}</p>      </div>
@@ -376,7 +376,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s511.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s511.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title11}</div>
                 <div className="n5hover_content">
                   <p>{data.content11}</p>      </div>
@@ -386,7 +386,7 @@ const NFTDev = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/NFTDev/s512.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/NFTDev/s512.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title12}</div>
                 <div className="n5hover_content">
                   <p>{data.content12}</p>      </div>

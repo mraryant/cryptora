@@ -22,7 +22,7 @@ const Footer = () => {
 										<div className="form-group d-flex" style={{ flexDirection: 'row', }}>
 											{/* <input type="text" className="form-control rounded-left" placeholder="Enter email address" style={{ paddingLeft: 30 }} /> */}
 											<Link to='/Contact-us ' className=' d-flex justify-content-center  align-items-center s4button' style={{ textDecoration: "none", color: 'black', fontWeight: 800, borderRadius: 50, width: "100%", fontSize: 12 }}>
-												Contact Now <img src={Arrow} alt="" className='arrow' style={{ width: 25, height: 25 }} />
+												Contact Now <img src={Arrow} alt="I am Just comming ^_^" className='arrow' style={{ width: 25, height: 25 }} />
 											</Link>
 										</div>
 									</form>
@@ -33,7 +33,7 @@ const Footer = () => {
 							<div className="col-md-4 col-lg-5" >
 								<div className="d-flex  gap-4 row">
 									<div className="col-md-12 col-lg-8 mb-md-0 mb-4">
-										<img style={{ marginRight: "15px" }} className="  footer-heading" src={Logo} alt="" />
+										<img style={{ marginRight: "15px" }} className="  footer-heading" src={Logo} alt="I am Just comming ^_^" />
 										<p style={{ color: "rgb(204, 203, 203)" }} >We provide crypto and blockchain development company with experience in NFT marketplace development, token development, crypto wallet development.</p>
 
 									</div>
@@ -86,10 +86,10 @@ const Footer = () => {
 									<div className="col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">Social</h2>
 										<ul className="list-unstyled">
-											<li><a target='blank' href="https://bit.ly/3GnnFUJ" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={ws} alt="" /> WhatsApp</a></li>
-											<li><a target='blank' href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcryptora_tech" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", backgroundColor: "white", height: "20px", width: "20px" }} src={x} alt="" /> Twitter-X</a></li>
-											<li><a target='blank' href="https://t.me/Cryptoracommunity" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={ig} alt="" /> Instagram</a></li>
-											<li><a target='blank' href="https://www.instagram.com/Cryptoratech/" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={tg} alt="" /> Telegram</a></li>
+											<li><a target='blank' href="https://bit.ly/3GnnFUJ" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={ws} alt="I am Just comming ^_^" /> WhatsApp</a></li>
+											<li><a target='blank' href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcryptora_tech" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", backgroundColor: "white", height: "20px", width: "20px" }} src={x} alt="I am Just comming ^_^" /> Twitter-X</a></li>
+											<li><a target='blank' href="https://t.me/Cryptoracommunity" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={ig} alt="I am Just comming ^_^" /> Instagram</a></li>
+											<li><a target='blank' href="https://www.instagram.com/Cryptoratech/" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img style={{ margin: "5px", height: "20px", width: "20px" }} src={tg} alt="I am Just comming ^_^" /> Telegram</a></li>
 										</ul>
 									</div>
 								</div>

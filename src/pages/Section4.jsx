@@ -8,7 +8,7 @@ const Section4 = () => {
       <div className="s4main">
 
         <div className="s4left">
-          <img src={NFTG} alt="" style={{ width: "60%", height: "80%" }} />
+          <img src={NFTG} alt="I am Just comming ^_^" style={{ width: "60%", height: "80%" }} />
 
 
 

@@ -38,7 +38,7 @@ function Section1() {
         </div>
         <div className="know2" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div className="logo-container2 know2" >
-            <img src={Arrow} className='arimg2' alt="" />
+            <img src={Arrow} className='arimg2' alt="Arrow" />
             <div className="logo-container">
               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                 <a href="#section2"><path id="circlePath" fill="none" strokeWidth="4" d="

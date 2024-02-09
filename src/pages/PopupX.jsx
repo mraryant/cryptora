@@ -310,14 +310,14 @@ const PopupX = () => {
 
                 <div className="si2">
                   <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }} >
-                    <img src={x} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <img src={x} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                     <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcryptora_tech" target='blank'>
                       <p>cryptora_Community</p>
                     </a>
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
 
-                    <img src={wa} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <img src={wa} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                     <a style={{ textDecoration: "none", color: "white" }} href="https://bit.ly/3GnnFUJ" target='blank'>
                       <p>8770632170</p>
                     </a>
@@ -325,7 +325,7 @@ const PopupX = () => {
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
 
-                    <img src={tg} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="" />
+                    <img src={tg} style={{ margin: "10px", backgroundColor: "white", borderRadius: 50, width: 30, height: 30 }} alt="I am Just comming ^_^" />
                     <a style={{ textDecoration: "none", color: "white" }} href="https://t.me/Cryptoracommunity" target='blank'>
 
                       <p>Cryptora_text</p>

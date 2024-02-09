@@ -135,7 +135,7 @@ const StackingPlatform = () => {
           </div>
           <div id="stakingright">
             <div>
-              <img src="/Stacking/defi.jpg" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Stacking/defi.jpg" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
 
             </div>
@@ -224,7 +224,7 @@ const StackingPlatform = () => {
           </div>
           <div id="stakingright">
             <div>
-              <img src="/Decentralized/deimg2.png" style={{ width: "100%", height: "100%" }} alt="" />
+              <img src="/Decentralized/deimg2.png" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
             </div>
           </div>
@@ -241,7 +241,7 @@ const StackingPlatform = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Stacking/sp11.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Stacking/sp11.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title1}</div>
                 <div className="n5hover_content">
                   <p> {data.content1}</p>
@@ -252,7 +252,7 @@ const StackingPlatform = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Stacking/sp12.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Stacking/sp12.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title2}</div>
                 <div className="n5hover_content">
                   <p>{data.content2}</p>
@@ -263,7 +263,7 @@ const StackingPlatform = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Stacking/sp13.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Stacking/sp13.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title3}</div>
                 <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>

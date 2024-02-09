@@ -32,7 +32,7 @@ const Microservice = () => {
 
       {/* <div className="chatsupport" >
         <div className="chat" style={{ width: 50, height: 50, overflow: "hidden", borderRadius: "150px", backgroundColor: "white", display: "flex", justifyContent: "center", alignItems: 'center' }}>
-          <img src={chat} alt="" style={{ width: 40, height: 40 }} />
+          <img src={chat} alt="I am Just comming ^_^" style={{ width: 40, height: 40 }} />
         </div>
       </div> */}
       <div className="chatsupport2" >
@@ -41,7 +41,7 @@ const Microservice = () => {
         </div>
         <div onClick={() => { handlepopup(popup) }} className="chat" style={{ width: 50, height: 50, overflow: "hidden", borderRadius: "150px", backgroundColor: "#49E670", display: "flex", justifyContent: "center", alignItems: 'center' }}>
           {/* <a href="https://bit.ly/3GnnFUJ" target='blank' > */}
-          <img src={whatsapp} alt="" style={{ width: 35, height: 35 }} />
+          <img src={whatsapp} alt="I am Just comming ^_^" style={{ width: 35, height: 35 }} />
           {/* </a> */}
         </div>
       </div>

@@ -40,22 +40,22 @@ function Section2() {
                                         </motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  Different network access options to expedite company processes.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  Different network access options to expedite company processes.</motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  Assistance in implementing novel blockchain technologies.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  Assistance in implementing novel blockchain technologies.</motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  NFT Marketplace, Crypto Exchange, Staking, Defi Platform, dApp, Custom Solution.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  NFT Marketplace, Crypto Exchange, Staking, Defi Platform, dApp, Custom Solution.</motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
                                         <motion.p initial={{ x: -50, opacity: 0 }}
                                                 whileInView={{ x: 0, opacity: 1 }}
-                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
+                                                transition={{ ease: "easeIn", duration: 1, delay: 0.3 }} className='s2para'><img src={Bullet} alt="I am Just comming ^_^" style={{ width: 20, height: 20, color: 'white' }} />  Adaptable corporate solutions.</motion.p>
                                 </div>
                                 <div className='sec2right'>
 

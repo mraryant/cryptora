@@ -323,17 +323,17 @@ const Section9 = () => {
           </div>
         </header>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <img src={P1} className='s9i' alt="" />
-          <img src={P11} className='s9i' alt="" />
-          <img src={P3} className='s9i' alt="" />
-          <img src={P5} className='s9i' alt="" />
-          <img src={P4} className='s9i' alt="" />
+          <img src={P1} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P11} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P3} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P5} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P4} className='s9i' alt="I am Just comming ^_^" />
           <br />
-          <img src={P6} className='s9i' alt="" />
-          <img src={P7} className='s9i' alt="" />
-          <img src={P8} className='s9i' alt="" />
-          <img src={P9} className='s9i' alt="" />
-          <img src={P10} className='s9i' alt="" />
+          <img src={P6} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P7} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P8} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P9} className='s9i' alt="I am Just comming ^_^" />
+          <img src={P10} className='s9i' alt="I am Just comming ^_^" />
         </div>
 
       </div>

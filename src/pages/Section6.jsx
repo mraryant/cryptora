@@ -112,29 +112,29 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg1} className='fwimg' alt="" />
+                        <img src={fwimg1} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg2} className='fwimg' alt="" />
+                        <img src={fwimg2} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg3} className='fwimg' alt="" />
+                        <img src={fwimg3} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg4} className='fwimg' alt="" />
+                        <img src={fwimg4} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg5} className='fwimg' alt="" />
+                        <img src={fwimg5} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg6} className='fwimg' alt="" />
+                        <img src={fwimg6} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
@@ -149,57 +149,57 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg21} className='fwimg' alt="" />
+                        <img src={fwimg21} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg22} className='fwimg' alt="" />
+                        <img src={fwimg22} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg23} className='fwimg' alt="" />
-
-                      </div>
-                    </div>
-                    <div className='boxdetail'>
-                      <div className="fwbox">
-                        <img src={fwimg24} className='fwimg' alt="" />
-
-                      </div>
-                      <div className="fwbox">
-                        <img src={fwimg25} className='fwimg' alt="" />
-
-                      </div>
-                      <div className="fwbox">
-                        <img src={fwimg26} className='fwimg' alt="" />
+                        <img src={fwimg23} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg47} className='fwimg' alt="" />
+                        <img src={fwimg24} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg48} className='fwimg' alt="" />
+                        <img src={fwimg25} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg49} className='fwimg' alt="" />
+                        <img src={fwimg26} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg51} className='fwimg' alt="" />
+                        <img src={fwimg47} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg52} className='fwimg' alt="" />
+                        <img src={fwimg48} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg53} className='fwimg' alt="" />
+                        <img src={fwimg49} className='fwimg' alt="I am Just comming ^_^" />
+
+                      </div>
+                    </div>
+                    <div className='boxdetail'>
+                      <div className="fwbox">
+                        <img src={fwimg51} className='fwimg' alt="I am Just comming ^_^" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg52} className='fwimg' alt="I am Just comming ^_^" />
+
+                      </div>
+                      <div className="fwbox">
+                        <img src={fwimg53} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
@@ -215,29 +215,29 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg31} className='fwimg' alt="" />
+                        <img src={fwimg31} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg32} className='fwimg' alt="" />
+                        <img src={fwimg32} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg33} className='fwimg' alt="" />
+                        <img src={fwimg33} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg34} className='fwimg' alt="" />
+                        <img src={fwimg34} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg35} className='fwimg' alt="" />
+                        <img src={fwimg35} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg36} className='fwimg' alt="" />
+                        <img src={fwimg36} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
@@ -253,29 +253,29 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg41} className='fwimg' alt="" />
+                        <img src={fwimg41} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg42} className='fwimg' alt="" />
+                        <img src={fwimg42} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg43} className='fwimg' alt="" />
+                        <img src={fwimg43} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg44} className='fwimg' alt="" />
+                        <img src={fwimg44} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg45} className='fwimg' alt="" />
+                        <img src={fwimg45} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg46} className='fwimg' alt="" />
+                        <img src={fwimg46} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
@@ -291,21 +291,21 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg71} className='fwimg' alt="" />
+                        <img src={fwimg71} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg72} className='fwimg' alt="" />
+                        <img src={fwimg72} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg73} className='fwimg' alt="" />
+                        <img src={fwimg73} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg74} className='fwimg' alt="" />
+                        <img src={fwimg74} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                        
@@ -322,25 +322,25 @@ const Section6 = () => {
                   <div className="fw">
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg81} className='fwimg' alt="" />
+                        <img src={fwimg81} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg82} className='fwimg' alt="" />
+                        <img src={fwimg82} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg83} className='fwimg' alt="" />
+                        <img src={fwimg83} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                     </div>
                     <div className='boxdetail'>
                       <div className="fwbox">
-                        <img src={fwimg84} className='fwimg' alt="" />
+                        <img src={fwimg84} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                       <div className="fwbox">
-                        <img src={fwimg85} className='fwimg' alt="" />
+                        <img src={fwimg85} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
                        

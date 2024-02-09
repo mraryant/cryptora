@@ -147,7 +147,7 @@ const Crypto = () => {
           </div>
           <div id="cryptoright">
             <div>
-              <img src={token1} alt="" style={{ width: "100%", height: "100%" }} />
+              <img src={token1} alt="I am Just comming ^_^" style={{ width: "100%", height: "100%" }} />
 
 
             </div>
@@ -236,7 +236,7 @@ const Crypto = () => {
           </div>
           <div id="cryptoright">
             <div>
-              <img src={token2} style={{ width: 300, height: 300 }} alt="" />
+              <img src={token2} style={{ width: 300, height: 300 }} alt="I am Just comming ^_^" />
 
             </div>
           </div>
@@ -253,7 +253,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto1.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto1.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title1}</div>
                 <div className="n5hover_content">
                   <p> {data.content1}</p>
@@ -264,7 +264,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto2.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto2.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title2}</div>
                 <div className="n5hover_content">
                   <p>{data.content2}</p>
@@ -275,7 +275,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto4.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto4.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title3}</div>
                 <div className="n5hover_content">
                   <p>{data.content3}</p>      </div>
@@ -286,7 +286,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto41.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto41.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title4}</div>
                 <div className="n5hover_content">
                   <p>{data.content4}</p>      </div>
@@ -296,7 +296,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto5.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto5.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title5} </div>
                 <div className="n5hover_content">
                   <p>{data.content5}</p>      </div>
@@ -306,7 +306,7 @@ const Crypto = () => {
           <section className="n5container">
             <div className="n5card">
               <div className="n5content">
-                <p className="n5logo"><img src="/Crypto/crypto6.png" alt="" style={{ width: 50 }} /></p>
+                <p className="n5logo"><img src="/Crypto/crypto6.png" alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
                 <div className="n5h6">{data.title6}</div>
                 <div className="n5hover_content">
                   <p>{data.content6}</p>      </div>

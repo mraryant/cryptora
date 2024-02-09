@@ -78,7 +78,7 @@ function Services() {
         </div>
         <div id="CSright">
           <div className='CSrright'>
-            <img src="/src/assets/servic-hero-right.png" style={{ width: "100%", height: "100%" }} alt="" />
+            <img src="/src/assets/servic-hero-right.png" style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
 
 
           </div>

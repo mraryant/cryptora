@@ -1,9 +1,7 @@
-import React from 'react'
-import TopNavbar from '../component/TopNavbar'
 import './Service.css'
 import './Blockchain.css'
 import Footer from '../component/Footer'
-import bchain from "../../public/Blockchain/bchain.mp4"
+const bchain = "https://res.cloudinary.com/dyqkppjr1/video/upload/v1707474986/Cryptora%20Videos/blockchain%20services.mp4"
 import { Helmet } from 'react-helmet'
 
 const Blockchain = () => {

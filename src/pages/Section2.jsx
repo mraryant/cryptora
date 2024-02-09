@@ -1,26 +1,14 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import '../styles/Section2.css'
 // import Waves from '../assets/waves.mp4'
 import AOS from 'aos';
-import Image1 from '../assets/index2.mp4'
+const video1 = " https://res.cloudinary.com/dyqkppjr1/video/upload/v1707462694/Cryptora%20Videos/homepage%20hero%20video.mp4"
 import Bullet from '../assets/bullet.svg'
 import { motion } from "framer-motion"
 import 'aos/dist/aos.css';
-const { useLayoutEffect, useRef } = React;
+
 function Section2() {
-        // const app = useRef();
-        // const circle = useRef();
-        // useLayoutEffect(() => {
-        //     let ctx = gsap.context(() => {
-        //       // use scoped selectors
-        //       gsap.to(".box", { x: -200 })
-        //       // or refs
-        //       gsap.to(circle.current, { rotation: 360 });
 
-        //     }, app);
-
-        //     return () => ctx.revert();
-        //   }, []);
 
         useEffect(() => {
                 AOS.init();
@@ -72,7 +60,7 @@ function Section2() {
                                 <div className='sec2right'>
 
                                         <video autoPlay muted loop playsInline className='sec2vdo'>
-                                                <source src={Image1} type='video/mp4' />
+                                                <source src={video1} type='video/mp4' />
 
                                         </video>
                                 </div>

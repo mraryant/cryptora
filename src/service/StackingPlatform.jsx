@@ -2,7 +2,7 @@
 import './Service.css'
 import './Staking.css'
 import Footer from '../component/Footer'
-import Waves from "../assets/staking.mp4"
+const Waves = "https://res.cloudinary.com/dyqkppjr1/video/upload/v1707476531/Cryptora%20Videos/stacking.mp4"
 import { Helmet } from 'react-helmet'
 
 

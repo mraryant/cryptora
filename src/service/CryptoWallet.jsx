@@ -11,7 +11,7 @@ import cw6 from '../assets/cryptowallet/cw6.png'
 import cw7 from '../assets/cryptowallet/cw7.png'
 import cw8 from '../assets/cryptowallet/cw8.png'
 import cw9 from '../assets/cryptowallet/cw9.png'
-import cwback from '../assets/cryptowallet/cwback.mp4'
+const cwback = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707476690/Cryptora%20Videos/wallet.mp4'
 import cwimg from '../assets/cryptowallet/cwimg.png'
 
 

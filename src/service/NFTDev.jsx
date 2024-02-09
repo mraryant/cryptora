@@ -2,8 +2,8 @@ import React from 'react'
 // import TopNavbar from '../component/TopNavbar'
 import './ICO.css'
 import Footer from '../component/Footer'
-import Waves from '/public/NFTDev/nft.mp4'
-import video2 from '/public/NFTDev/nftvideo2.mp4'
+const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707473795/Cryptora%20Videos/NFT%20dev.mp4'
+const video2 = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707473795/Cryptora%20Videos/NFT%20dev.mp4'
 import { Helmet } from 'react-helmet'
 const NFTDev = () => {
   const data = {

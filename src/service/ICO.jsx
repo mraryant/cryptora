@@ -3,7 +3,7 @@ import './ICO.css'
  
 import './Service.css'
 import Footer from '../component/Footer'
-import Waves from '../../public/ICO/icoback.mp4'
+const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707474661/Cryptora%20Videos/ICO.mp4'
 import icoimg1 from '../../public/ICO/icoimg1.png'
 import icoimg2 from '../../public/ICO/icoimg2.png'
 import { Helmet } from 'react-helmet'

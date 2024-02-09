@@ -2,10 +2,11 @@
 import './Service.css'
 import './Decentralized.css'
 import Footer from '../component/Footer'
-import Waves from '../../public/Decentralized/dex_3.mp4'
+const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707474083/Cryptora%20Videos/exchange.mp4'
 import deimg1 from '/Decentralized/deimg1.png'
 import deimg2 from '/Decentralized/deimg2.png'
 import { Helmet } from 'react-helmet'
+
 const Decentralized = () => {
 
   const data = {

@@ -6,6 +6,7 @@ import '../styles/ContactUs.css'
 
 import cuimg from "/asset.svg"
 import conbg from "/src/assets/contact-bg.jpg"
+import Footer from '../component/Footer';
 // import { Helmet } from 'react-helmet';
 
 
@@ -114,6 +115,7 @@ const ContactUs = () => {
 
 
       </div>
+      <Footer />
     </>
   )
 }

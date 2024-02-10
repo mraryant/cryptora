@@ -83,6 +83,7 @@ p {
 }
 
 .contact-no {
+  width: fit-content;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -92,6 +93,7 @@ p {
 .contact-number {
   text-decoration: none;
   color: aliceblue;
+  text-wrap: nowrap;
 }
 
 .contact-number {
@@ -180,7 +182,7 @@ p {
   inset: 0;
   left: -7px;
   margin: auto;
-  width: 238px;
+  width: 218px;
   height: 48px;
   border-radius: 10px;
   background: linear-gradient(-45deg, #ff821c 0%, #ffe640 100%);
@@ -418,7 +420,7 @@ form {
     border: 1px solid white;
     border-radius: 10px;
     padding: 25px 50px;
-    width: 72.33%;
+    width: 82.33%;
     height: 100%;
     min-height: 400px;
     gap: 20px;

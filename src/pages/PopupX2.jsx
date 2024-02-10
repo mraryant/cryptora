@@ -24,7 +24,7 @@ const PopupX2 = () => {
 
     return (
         <>
-   
+
             {/* another popup  */}
 
             <div id="pop2">
@@ -45,7 +45,9 @@ const PopupX2 = () => {
 
                             {/* <input type="email" className="  ex-input " id="ex-input" placeholder="select your country" /> */}
 
-                            <select className="ex-input" name="from_location" placeholder="Select Your Country" id="contry" required>
+                            <input type="text" className="ex-input" id="budget" placeholder='Budget' name="from_budget" required />
+
+                            {/* <select className="ex-input" name="from_location" placeholder="Select Your Country" id="contry" required>
                                 <option value="" disabled selected>Select Your Country</option>
                                 <option value="Afghanistan" id="AF"  >Afghanistan</option>
                                 <option value="Albania" id="AL">Albania</option>
@@ -286,13 +288,13 @@ const PopupX2 = () => {
                                 <option value="Yemen" id="YE">Yemen</option>
                                 <option value="Zambia" id="ZM">Zambia</option>
                                 <option value="Zimbabwe" id="ZW">Zimbabwe</option>
-                            </select>
+                            </select> */}
 
                             <textarea name="message" className="ex-input" id="ex-input" placeholder="Enter your Subject" rows="2"></textarea>
 
-                            <button type="submit" style={{width:"50%", margin:"0 auto"}}  className='s4button' id='btn1'>
-                            Submit
-                        </button>
+                            <button type="submit" style={{ width: "50%", margin: "0 auto" }} className='s4button' id='btn1'>
+                                Submit
+                            </button>
                         </div>
 
                     </form>
@@ -308,7 +310,7 @@ const PopupX2 = () => {
                 </div>
             </div> */}
 
-            
+
         </>
     )
 }

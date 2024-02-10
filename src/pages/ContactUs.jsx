@@ -6,7 +6,7 @@ import '../styles/ContactUs.css'
 
 import cuimg from "/asset.svg"
 import conbg from "/src/assets/contact-bg.jpg"
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 
 const ContactUs = () => {
@@ -27,7 +27,7 @@ const ContactUs = () => {
 
   return (
     <>
-      
+
 
       <img src={conbg} id='conbg' alt="I am Just comming ^_^" />
       <div className="contactmain container">
@@ -49,8 +49,8 @@ const ContactUs = () => {
               <img src={cuimg} alt="I am Just comming ^_^" />
               <p className='cuhead'>Call Us</p>
               <div className='contact-no'>
-                <a className='contact-number' href="tel:8871192290">+918770632170</a>
-                <a className='contact-number' href="tel:8871192290">+918871192290</a>
+                <a className='contact-number' href="tel:8871192290">+91 88174 36778</a>
+                <a className='contact-number' href="tel:8871192290">+91 72239 27732</a>
               </div>
             </div>
             <div className="contact1">
@@ -59,8 +59,8 @@ const ContactUs = () => {
               <div className='contact-no' style={{ flexDirection: "column" }}>
 
 
-                <a className='contact-email' href="tel:8871192290">community@cryptora.tech</a>
-                <a className='contact-email' href="tel:8871192290">support@cryptora.tech</a>
+                <a className='contact-email' href="mailto:Info@digitalonebox.com">Info@digitalonebox.com</a>
+                <a className='contact-email' href="mailto:Support@cryptora.tech">Support@cryptora.tech</a>
               </div>
             </div>
             <div className="contact1">
@@ -69,7 +69,8 @@ const ContactUs = () => {
               <div className='contact-no'>
 
 
-                <a className='contact-number3' href="tel:8871192290">303 Western Corporate Near Apna Sweet Janjirwala New Palasia Indore, Madhya Pradesh</a>
+                <a className='contact-number3' href="">Nagpure Bhawan, Bhatera choky near forest naka balaghat - 481001</a>
+                <a className='contact-number3' href="mailto:digitalonebox.com@gmail.com">digitalonebox.com@gmail.com</a>
 
               </div>
             </div>

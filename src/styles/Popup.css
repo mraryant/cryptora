@@ -127,7 +127,7 @@ input[type="tel"] {
 #budget{
     width: 45%;
         padding: 10px;
-        background-color: #222227;
+        /* background-color: #222227; */
         /* border: 1px solid #ccc; */
         border-radius: 12px;
         font-size: 16px;

@@ -58,7 +58,9 @@ const PopupX = () => {
                   <input type="tel" id="phone" placeholder='Phone' name="from_phone" required />
 
 
-                  <select id="budget" name="from_location" required>
+                  <input type="text" id="budget" placeholder='Budget' name="from_budget" required />
+                  
+                  {/* <select id="budget" name="from_location" required>
                     <option value="" disabled selected>Select Your Country</option>
                     <option value="Afghanistan" id="AF">Afghanistan</option>
                     <option value="Albania" id="AL">Albania</option>
@@ -300,7 +302,7 @@ const PopupX = () => {
                     <option value="Zambia" id="ZM">Zambia</option>
                     <option value="Zimbabwe" id="ZW">Zimbabwe</option>
 
-                  </select>
+                  </select> */}
 
                   <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
                 </div>

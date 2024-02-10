@@ -41,8 +41,9 @@ const Footer = () => {
 
 
 										<a target='blank' style={{ textAlign: 'left' }} ><p style={{ color: "rgb(204, 203, 203)" }}>Whatsapp & Call Number  (Worldwide 24*7)</p></a>
-										<a target='blank'> +91 8770632170</a>
-										<a target='blank'>info@digitalonebox.com</a>
+										<a target='blank'> +91 88174 36778</a>
+										<a target='blank'> +91 72239 27732</a>
+										<a target='blank'>digitalonebox.com@gmail.com</a>
 									</div>
 								</div>
 							</div>

@@ -5,6 +5,9 @@ import "../styles/PopupX2.css"
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+// tostify 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const PopupX2 = () => {
     const form = useRef();
@@ -15,7 +18,15 @@ const PopupX2 = () => {
         emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
             .then((result) => {
                 console.log(result.text);
-                console.log("massage send")
+                // Show success message
+                toast.success('We got it successfully!😀', {
+                    position: 'top-right',
+                    autoClose: 3000, // Duration for which the toast will be displayed
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
@@ -29,6 +40,10 @@ const PopupX2 = () => {
 
             <div id="pop2">
                 <div id="pop2-container">
+                    <ToastContainer
+                        style={{ background: 'black', color: 'white' }}
+                        bodyStyle={{ fontSize: '16px', fontWeight: '800', color: "black" }}
+                    />
                     <form ref={form} onSubmit={sendEmail} id="pop2-form" action="">
 
                         <div id="heading">

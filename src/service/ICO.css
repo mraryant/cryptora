@@ -1,1016 +1,1099 @@
-#icobody{
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    padding: 0%;
-    box-sizing: border-box;
-  
-  
-}
-
-#icosec1{
-    width:100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-
-    gap: 20px;
-    padding: 20px;  
-}
-.icosec1main{
-  overflow: hidden;
-  position: relative;
-
-}
-
-#icosec2{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 5%;
-}
-#icosec3{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-#icosec4{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 20px;
-}
-#icosec5{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-#icoleft{
-width:50%;
-height: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-#s5main{
-    width:100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:50px 0px;
-    }
-#icoright{
-
-width:50%;
-height: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.icovideo{
+#icobody {
+  margin: 0px;
   width: 100%;
-  object-fit: cover;
   height: 100%;
-  display: flex;
-  position: absolute;
- opacity: 0.5;
-  right: 0%;
-   
+  padding: 0%;
+  box-sizing: border-box;
+
+
 }
 
-.icohead{
-    font-size: 50px;
-    color: white;
-    z-index: 0;
-    font-weight: 800;
-    font-family: 'Manrope', sans-serif;
-  }
-.icoheading{
-    color: #ffffff;
-    font-family: 'Manrope', sans-serif;
-    font-size: 40px;
-font-style: normal;
-font-weight: 800;
-width: 100%;
-line-height: 52px; /* 130% */
-text-transform: capitalize;
-}
-.icosmall{
-    color: #eb5722;
-    font-family: 'Manrope', sans-serif;
-    text-align: left;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.s5small{
-    color: #eb5722;
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.icoparagraph{
-    color: #ffffff;
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28.25px; /* 175% */
-}
-.icopara{
-    font-size: 18px;
-    z-index: 0;
-    font-weight: 400;
-    color:white;
-}
-.icobutton{
-    display: flex;
-    flex-direction: row;
-    gap:3vmax;
-    justify-content:flex-start;
-    width: 100%;
-   
-    }
-
-/* CARDS */
-
-.icocard {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 32px;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .icocontent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    color: #e8e8e8;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .icocontent .heading {
-    font-weight: 700;
-    font-size: 32px;
-  }
-  
-  .icocontent .para {
-    line-height: 1.5;
-    font-size: 16;
-  }
-  
-  .icocontent .btn {
-    color: #e8e8e8;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .icocard::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    z-index: -1;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .icocard:hover::before {
-    height: 100%;
-  }
-  
-  .icocard:hover {
-    box-shadow: none;
-  }
-  
-  .icocard:hover .btn {
-    color: #212121;
-    background: #e8e8e8;
-  }
-  
-  .icocontent .btn:hover {
-    outline: 2px solid #e8e8e8;
-    background: transparent;
-    color: #e8e8e8;
-  }
-  
-  .icocontent .btn:active {
-    box-shadow: none;
-  }
-  
-
-  /* CARD2 */
-
-  .n5container {
-    height: 100%;
-    display: flex;
-    display: flex;
-    justify-content: center;
-  align-items: center;
-    width: 22em;
-    max-width: 80%;
-   
-  }
-  
-  .n5card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    width: 22em;
-    max-width: 80%;
-    padding: 2em 0;
-    border-radius: 10px;
-    background: #000000;
-    box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-    transition: all 0.35s ease;
-  }
-  
-  .n5card::before, .n5card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: orange;
-    height: 4px;
-
-  }
-  
-  .n5card::before {
-    width: 0;
-    opacity: 0;
-    transition: opacity 0 ease, width 0 ease;
-    transition-delay: 0.5s;
-  }
-  
-  .n5card::after {
-    width: 100%;
-    background: white;
-    transition: width 0.5s ease;
-  }
-  
-  .n5card .n5content {
-    width: 18em;
-    max-width: 80%;
-    text-align: center;
-  }
-  
-  .n5card .n5logo {
-    margin: 0 0 1em;
-    width: 100%;
-    
-    transition: all 0.35s ease;
-  }
-  
-  .n5card .n5h6 {
-    color: #ffffff;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0;
-    letter-spacing: 2px;
-  }
-  
-  .n5card .n5hover_content {
-    overflow: hidden;
-    max-height: 0;
-    transform: translateY(1em);
-    transition: all 0.55s ease;
-  }
-  
-  .n5card .n5hover_content p {
-    margin: 1.5em 0 0;
-    color: #c9c9cc;
-    line-height: 1.4em;
-  }
-  
-  .n5card:hover {
-    width: 22em;
-    box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
-  }
-  
-  .n5card:hover::before {
-    width: 100%;
-    opacity: 1;
-    transition: opacity 0.5s ease, width 0.5s ease;
-    transition-delay: 0;
-  }
-  
-  .n5card:hover::after {
-    width: 0;
-    opacity: 0;
-    transition: width 0 ease;
-  }
-  
-  .n5card:hover .n5logo {
-    margin-bottom: 0.5em;
-  }
-  
-  .n5card:hover .n5hover_content {
-    max-height: 10em;
-    transform: none;
-  }
-
-  .dexbutton {
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 7px;
-    border: 1px solid #f88410;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    background: transparent;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 0 0 0 transparent;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  }
-  
-  .dexbutton:hover {
-    background: #f88410;
-    box-shadow: 0 0 30px 5px hsla(30, 94%, 52%, 0.881);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-  }
-  
-  .dexbutton:hover::before {
-    -webkit-animation: sh02 0.5s 0s linear;
-    -moz-animation: sh02 0.5s 0s linear;
-    animation: sh02 0.5s 0s linear;
-  }
-  
-  .dexbutton::before {
-    content: '';
-    display: block;
-    width: 0px;
-    height: 86%;
-    position: absolute;
-    top: 7%;
-    left: 0%;
-    opacity: 0;
-    background: #fff;
-    box-shadow: 0 0 50px 30px #fff;
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    -ms-transform: skewX(-20deg);
-    -o-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-  }
-  
-  @keyframes sh02 {
-    from {
-      opacity: 0;
-      left: 0%;
-    }
-  
-    50% {
-      opacity: 1;
-    }
-  
-    to {
-      opacity: 0;
-      left: 100%;
-    }
-  }
-  .nftbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .dexbutton:active {
-    box-shadow: 0 0 0 0 transparent;
-    -webkit-transition: box-shadow 0.2s ease-in;
-    -moz-transition: box-shadow 0.2s ease-in;
-    transition: box-shadow 0.2s ease-in;
-  }
-  
-
-  @media (min-width:768px) and (max-width:1000px){
-    .icocard{
-      width: 40%;
-  }
-  }
-  @media (max-width:768px){
-    #icosec1{
-        flex-direction: column-reverse;
-        height: auto;
-        text-align: center;
-        height: 90vh;
-        
-    }
-    #icoright{
-      width: auto;
-    }
-    #icosec2{
-        flex-direction: column-reverse;
-    }
-    #icoleft{
-      width: auto;
-      gap: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-    }
-    .icohead{
-        font-size: 50px;
-        font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-   .icopara{
-    font-size: 18px;
-   }
-    .icocard{
-        width: auto;
-    }
-    #icosec4{
-        flex-direction: column-reverse;
-        padding: 10px;
-        
-    }
-    #icosec5{
-        flex-direction: column;
-        padding: 10px;
-        
-    }
-    #s5main{
-        
-        width: auto;
-    }
-  }
-
-  #nftbody{
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    padding: 0%;
-    box-sizing: border-box;
-  
-  
-}
-#nftsec1{
-  width:100%;
+#icosec1 {
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: row;
 
   gap: 20px;
-  padding: 20px;  
+  padding: 20px;
 }
-.nftsec1main{
-  
+
+.icosec1main {
   overflow: hidden;
   position: relative;
+
 }
-#nftsec2{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 5%;
+
+#icosec2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 5%;
 }
-#nftsec3{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 50px;
+
+#icosec3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
 }
-#nftsec4{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 20px;
+
+#icosec4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
 }
-#nftsec5{
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+
+#icosec5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
-#nftleft{
-width:50%;
-height: 90%;
-display: flex;
-justify-content: center;
-align-items: start;
-flex-direction: column;
+
+#icoleft {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#s5main{
-    width:100%;
-    height: 100%;
+
+#s5main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+#icoright {
+
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icovideo {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  opacity: 0.5;
+  right: 0%;
+
+}
+
+.icohead {
+  font-size: 50px;
+  color: white;
+  z-index: 0;
+  font-weight: 800;
+  font-family: 'Manrope', sans-serif;
+}
+
+.icoheading {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  line-height: 52px;
+  /* 130% */
+  text-transform: capitalize;
+}
+
+.icosmall {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.s5small {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.icoparagraph {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28.25px;
+  /* 175% */
+}
+
+.icopara {
+  font-size: 18px;
+  z-index: 0;
+  font-weight: 400;
+  color: white;
+}
+
+.icobutton {
+  display: flex;
+  flex-direction: row;
+  gap: 3vmax;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+
+/* CARDS */
+
+.icocard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.icocontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: #e8e8e8;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.icocontent .heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.icocontent .para {
+  line-height: 1.5;
+  font-size: 16;
+}
+
+.icocontent .btn {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icocard::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.icocard:hover::before {
+  height: 100%;
+}
+
+.icocard:hover {
+  box-shadow: none;
+}
+
+.icocard:hover .btn {
+  color: #212121;
+  background: #e8e8e8;
+}
+
+.icocontent .btn:hover {
+  outline: 2px solid #e8e8e8;
+  background: transparent;
+  color: #e8e8e8;
+}
+
+.icocontent .btn:active {
+  box-shadow: none;
+}
+
+
+/* CARD2 */
+
+.n5container {
+  height: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22em;
+  max-width: 80%;
+
+}
+
+.n5card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 22em;
+  max-width: 80%;
+  padding: 2em 0;
+  border-radius: 10px;
+  background: #000000;
+  box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+  transition: all 0.35s ease;
+}
+
+.n5card::before,
+.n5card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: orange;
+  height: 4px;
+
+}
+
+.n5card::before {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0 ease, width 0 ease;
+  transition-delay: 0.5s;
+}
+
+.n5card::after {
+  width: 100%;
+  background: white;
+  transition: width 0.5s ease;
+}
+
+.n5card .n5content {
+  width: 18em;
+  max-width: 80%;
+  text-align: center;
+}
+
+.n5card .n5logo {
+  margin: 0 0 1em;
+  width: 100%;
+
+  transition: all 0.35s ease;
+}
+
+.n5card .n5h6 {
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.n5card .n5hover_content {
+  overflow: hidden;
+  max-height: 0;
+  transform: translateY(1em);
+  transition: all 0.55s ease;
+}
+
+.n5card .n5hover_content p {
+  margin: 1.5em 0 0;
+  color: #c9c9cc;
+  line-height: 1.4em;
+}
+
+.n5card:hover {
+  width: 22em;
+  box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+}
+
+.n5card:hover::before {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease, width 0.5s ease;
+  transition-delay: 0;
+}
+
+.n5card:hover::after {
+  width: 0;
+  opacity: 0;
+  transition: width 0 ease;
+}
+
+.n5card:hover .n5logo {
+  margin-bottom: 0.5em;
+}
+
+.n5card:hover .n5hover_content {
+  max-height: 10em;
+  transform: none;
+}
+
+.dexbutton {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #f88410;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.dexbutton:hover {
+  background: #f88410;
+  box-shadow: 0 0 30px 5px hsla(30, 94%, 52%, 0.881);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.dexbutton:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.dexbutton::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.nftbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dexbutton:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+
+@media (min-width:768px) and (max-width:1000px) {
+  .icocard {
+    width: 40%;
+  }
+}
+
+@media (max-width:768px) {
+  #icosec1 {
+    flex-direction: column-reverse;
+    height: auto;
     text-align: center;
+    height: 90vh;
+
+  }
+
+  #icoright {
+    width: auto;
+  }
+
+  #icosec2 {
+    flex-direction: column-reverse;
+  }
+
+  #icoleft {
+    width: auto;
+    gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding:50px 0px;
-    }
-#nftright{
 
-width:50%;
-height: 90%;
-display: flex;
-justify-content: flex-end;
-align-items:flex-end;
-overflow: hidden;
-}
-.nftvideo{
-        z-index: 0;
-    width: 100%;
-    height: 25.69em;
-   
-   
-   
-}
-.nftvideo2{
-  z-index: 0;
-width: 100%;
-height: 25.69em;
-transform: scale(1.3);
+  }
 
-
-
-}
-.nfthead{
+  .icohead {
     font-size: 50px;
     font-weight: 700;
-    z-index: 0;
-    font-family: 'Manrope', sans-serif;}
-.nftheading{
-    color: #ffffff;
-font-family: 'Manrope', sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-width: 100%;
-line-height: 52px; /* 130% */
-text-transform: capitalize;
-}
-.nftsmall{
-    color: #eb5722;
-font-family: 'Manrope', sans-serif;
-text-align: left;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.s5small{
-    color: #eb5722;
-font-family: 'Manrope', sans-serif;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-width: 100%;
-font-weight: 500;
-line-height: 19.2px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-.nftparagraph{
-    color: #ffffff;
-    font-family: 'Manrope', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28.25px; /* 175% */
-}
-.nftpara{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .icopara {
     font-size: 18px;
-    font-weight: 400;
-    /* z-index: 0; */
+  }
+
+  .icocard {
+    width: auto;
+  }
+
+  #icosec4 {
+    flex-direction: column-reverse;
+    padding: 10px;
+
+  }
+
+  #icosec5 {
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  #s5main {
+
+    width: auto;
+  }
 }
-.nftbutton{
-    display: flex;
-    flex-direction: row;
-    gap:40px;
-    justify-content:flex-start;
-    width: 100%;
-   
-    }
+
+#nftbody {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  box-sizing: border-box;
+
+
+}
+
+#nftsec1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+  padding: 20px;
+}
+
+.nftsec1main {
+
+  overflow: hidden;
+  position: relative;
+}
+
+#nftsec2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 5%;
+}
+
+#nftsec3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+#nftsec4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+#nftsec5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#nftleft {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+#s5main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+#nftright {
+
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.nftvideo {
+  z-index: 0;
+  width: 100%;
+  height: 25.69em;
+
+
+
+}
+
+.nftvideo2 {
+  z-index: 0;
+  width: 100%;
+  height: 25.69em;
+  transform: scale(1.3);
+
+
+
+}
+
+.nfthead {
+  font-size: 50px;
+  font-weight: 700;
+  z-index: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+.nftheading {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  line-height: 52px;
+  /* 130% */
+  text-transform: capitalize;
+}
+
+.nftsmall {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.s5small {
+  color: #eb5722;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19.2px;
+  /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nftparagraph {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28.25px;
+  /* 175% */
+}
+
+.nftpara {
+  font-size: 18px;
+  font-weight: 400;
+  /* z-index: 0; */
+}
+
+.nftbutton {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: flex-start;
+  width: 100%;
+
+}
 
 /* CARDS */
 
 .nftcard {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 32px;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .nftcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    color: #e8e8e8;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .nftcontent .heading {
-    font-weight: 700;
-    font-size: 32px;
-  }
-  
-  .nftcontent .para {
-    line-height: 1.5;
-    font-size: 16;
-  }
-  
-  .nftcontent .btn {
-    color: #e8e8e8;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .nftcard::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    z-index: -1;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .nftcard:hover::before {
-    height: 100%;
-  }
-  
-  .nftcard:hover {
-    box-shadow: none;
-  }
-  
-  .nftcard:hover .btn {
-    color: #212121;
-    background: #e8e8e8;
-  }
-  
-  .nftcontent .btn:hover {
-    outline: 2px solid #e8e8e8;
-    background: transparent;
-    color: #e8e8e8;
-  }
-  
-  .nftcontent .btn:active {
-    box-shadow: none;
-  }
-  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
 
-  /* CARD2 */
+.nftcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: #e8e8e8;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
 
-  .n5container {
-    height: 100%;
-    display: flex;
-  
-    width: 22em;
-    max-width: 80%;
-   
-  }
-  
-  .n5card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    width: 22em;
-    max-width: 80%;
-    padding: 2em 0;
-    border-radius: 10px;
-    background: #000000;
-    box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-    transition: all 0.35s ease;
-  }
-  
-  .n5card::before, .n5card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: orange;
-    height: 4px;
+.nftcontent .heading {
+  font-weight: 700;
+  font-size: 32px;
+}
 
+.nftcontent .para {
+  line-height: 1.5;
+  font-size: 16;
+}
+
+.nftcontent .btn {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nftcard::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.nftcard:hover::before {
+  height: 100%;
+}
+
+.nftcard:hover {
+  box-shadow: none;
+}
+
+.nftcard:hover .btn {
+  color: #212121;
+  background: #e8e8e8;
+}
+
+.nftcontent .btn:hover {
+  outline: 2px solid #e8e8e8;
+  background: transparent;
+  color: #e8e8e8;
+}
+
+.nftcontent .btn:active {
+  box-shadow: none;
+}
+
+
+/* CARD2 */
+
+.n5container {
+  height: 100%;
+  display: flex;
+
+  width: 22em;
+  max-width: 80%;
+
+}
+
+.n5card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 22em;
+  max-width: 80%;
+  padding: 2em 0;
+  border-radius: 10px;
+  background: #000000;
+  box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+  transition: all 0.35s ease;
+}
+
+.n5card::before,
+.n5card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: orange;
+  height: 4px;
+
+}
+
+.n5card::before {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0 ease, width 0 ease;
+  transition-delay: 0.5s;
+}
+
+.n5card::after {
+  width: 100%;
+  background: white;
+  transition: width 0.5s ease;
+}
+
+.n5card .n5content {
+  width: 18em;
+  max-width: 80%;
+  text-align: center;
+}
+
+.n5card .n5logo {
+  margin: 0 0 1em;
+  width: 100%;
+
+  transition: all 0.35s ease;
+}
+
+.n5card .n5h6 {
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.n5card .n5hover_content {
+  overflow: hidden;
+  max-height: 0;
+  transform: translateY(1em);
+  transition: all 0.55s ease;
+}
+
+.n5card .n5hover_content p {
+  margin: 1.5em 0 0;
+  color: #c9c9cc;
+  line-height: 1.4em;
+}
+
+.n5card:hover {
+  width: 22em;
+  box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+}
+
+.n5card:hover::before {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease, width 0.5s ease;
+  transition-delay: 0;
+}
+
+.n5card:hover::after {
+  width: 0;
+  opacity: 0;
+  transition: width 0 ease;
+}
+
+.n5card:hover .n5logo {
+  margin-bottom: 0.5em;
+}
+
+.n5card:hover .n5hover_content {
+  max-height: 10em;
+  transform: none;
+}
+
+
+@media (min-width:768px) and (max-width:1000px) {
+  .nftcard {
+    width: 40%;
   }
-  
-  .n5card::before {
-    width: 0;
+}
+
+
+
+.overlay01 {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  opacity: 1;
+  right: 0%;
+  bottom: 0%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0, 0, 0, 1) 100%);
+}
+
+:root {
+  --background: #000000;
+  --color: #FAFAFA;
+
+  --index: 0;
+  --index: 1;
+  --index: 2;
+}
+
+
+.stack {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.stack span {
+  font-weight: bold;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  font-size: 50px;
+  --stack-height: calc(100% / var(--stacks) - 1px);
+  --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+  --clip-top: calc(var(--stack-height) * var(--index));
+  --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+  clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+  animation: stack 340ms cubic-bezier(.46, .29, 0, 1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+}
+
+.stack span:nth-child(odd) {
+  --glitch-translate: 8px;
+}
+
+.stack span:nth-child(even) {
+  --glitch-translate: -8px;
+}
+
+@keyframes stack {
+  0% {
     opacity: 0;
-    transition: opacity 0 ease, width 0 ease;
-    transition-delay: 0.5s;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
   }
-  
-  .n5card::after {
-    width: 100%;
-    background: white;
-    transition: width 0.5s ease;
+
+  ;
+
+  60% {
+    opacity: 0.5;
+    transform: translateX(50%);
   }
-  
-  .n5card .n5content {
-    width: 18em;
-    max-width: 80%;
-    text-align: center;
-  }
-  
-  .n5card .n5logo {
-    margin: 0 0 1em;
-    width: 100%;
-    
-    transition: all 0.35s ease;
-  }
-  
-  .n5card .n5h6 {
-    color: #ffffff;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0;
-    letter-spacing: 2px;
-  }
-  
-  .n5card .n5hover_content {
-    overflow: hidden;
-    max-height: 0;
-    transform: translateY(1em);
-    transition: all 0.55s ease;
-  }
-  
-  .n5card .n5hover_content p {
-    margin: 1.5em 0 0;
-    color: #c9c9cc;
-    line-height: 1.4em;
-  }
-  
-  .n5card:hover {
-    width: 22em;
-    box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
-  }
-  
-  .n5card:hover::before {
-    width: 100%;
+
+  80% {
+    transform: none;
     opacity: 1;
-    transition: opacity 0.5s ease, width 0.5s ease;
-    transition-delay: 0;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
   }
-  
-  .n5card:hover::after {
-    width: 0;
-    opacity: 0;
-    transition: width 0 ease;
+
+  100% {
+    text-shadow: none;
   }
-  
-  .n5card:hover .n5logo {
-    margin-bottom: 0.5em;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    transform: translate(var(--glitch-translate));
   }
-  
-  .n5card:hover .n5hover_content {
-    max-height: 10em;
+
+  2% {
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+
+  4%,
+  100% {
+    text-shadow: none;
     transform: none;
   }
+}
 
 
-  @media (min-width:768px) and (max-width:1000px){
-    .nftcard{
-      width: 40%;
+
+@media (max-width:768px) {
+  #nftsec1 {
+    flex-direction: column-reverse;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+
   }
+
+  #nftsec2 {
+    flex-direction: column-reverse;
   }
 
-
-
-  .overlay01{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
+  #nftleft {
+    width: auto;
+    gap: 10px;
     display: flex;
-    position: absolute;
-   opacity: 1;
-    right: 0%;
-    bottom: 0%;
-    background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+    align-items: center;
   }
 
-  :root {
-    --background: #000000;
-    --color: #FAFAFA;
-   
-    --index: 0;
-    --index: 1;
-    --index: 2;
-  }
-  
-
-  .stack {
-
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-  .stack span {
-    font-weight: bold;
-    grid-row-start: 1;
-    grid-column-start: 1;
+  .nfthead {
     font-size: 50px;
-    --stack-height: calc(100% / var(--stacks) - 1px);
-    --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
-    --clip-top: calc(var(--stack-height) * var(--index));
-    --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
-    clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
-    animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-  
-  .stack span:nth-child(odd) { --glitch-translate: 8px; }
-  .stack span:nth-child(even) { --glitch-translate: -8px; }
-  
-  @keyframes stack {
-    0% {
-      opacity: 0;
-      transform: translateX(-50%);
-      text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-    };
-    60% {
-      opacity: 0.5;
-      transform: translateX(50%);
-    }
-    80% {
-      transform: none;
-      opacity: 1;
-      text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
-    }
-    100% {
-      text-shadow: none;
-    }
-  }
-  
-  @keyframes glitch {
-    0% {
-      text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-      transform: translate(var(--glitch-translate));
-    }
-    2% {
-      text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
-    }
-    4%, 100% {  text-shadow: none; transform: none; }
+
+  .nftpara {
+    font-size: 18px;
   }
 
 
+  .nftcard {
+    width: auto;
+  }
 
-  @media (max-width:768px){
-    #nftsec1{
-        flex-direction: column-reverse;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100vh;
-      
-        
-    }
-    #nftsec2{
-        flex-direction: column-reverse;
-    }
-    #nftleft{
-        width: auto;
-        gap: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .nfthead{
-        font-size: 50px;
-        font-weight: 700;
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .nftpara{
-      font-size: 18px;
-    }
-   
-  
-    .nftcard{
-        width: auto;
-    }
-    #nftsec4{
-        flex-direction: column-reverse;
-        padding: 10px;
-        
-    }
-    #nftsec5{
-        flex-direction: column;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    #s5main{
-        
-        width: auto;
-    }
-    .nftcard{
-      border: 1px solid rgba(255, 255, 255, 0.137);
-    }
-    .nftvideo2{
-      z-index: 0;
+  #nftsec4 {
+    flex-direction: column-reverse;
+    padding: 10px;
+
+  }
+
+  #nftsec5 {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #s5main {
+
+    width: auto;
+  }
+
+  .nftcard {
+    border: 1px solid rgba(255, 255, 255, 0.137);
+  }
+
+  .nftvideo2 {
+    z-index: 0;
     width: 100%;
     height: 300px;
-   
+
     transform: scale(1.3);
-    
-    
-    
-    }
-    #nftright{
-      
-      display: none;
-    }
-    #nftright2{
-      flex-direction: column;
-      width: 80%;
-      display: flex;
-      justify-content: center;align-items: center;
-    }
+
+
+
   }
+
+  #nftright {
+
+    display: none;
+  }
+
+  #nftright2 {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

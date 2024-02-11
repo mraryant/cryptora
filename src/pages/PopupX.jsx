@@ -10,6 +10,10 @@ import tg from "../assets/tg.png"
 
 import '../styles/Popup.css'
 
+// tostify 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const PopupX = () => {
   const form = useRef();
@@ -20,11 +24,23 @@ const PopupX = () => {
     emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
       .then((result) => {
         console.log(result.text);
-        console.log("massage send")
+        
+        // Show success message
+        toast.success('We got it successfully!😀', {
+          position: 'top-right',
+          autoClose: 3000, // Duration for which the toast will be displayed
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        });
+
         e.target.reset();
       }, (error) => {
         console.log(error.text);
       });
+    
+    
   };
   return (
     <>
@@ -46,6 +62,10 @@ const PopupX = () => {
 
             <div className="contact-right">
 
+              <ToastContainer
+                style={{ background: 'black', color: 'white' }}
+                bodyStyle={{ fontSize: '16px', fontWeight: '800', color: "black" }}
+              />
               <form ref={form} onSubmit={sendEmail} method="post" id='contact-form'>
                 <h1>Get A Live Demo</h1>
                 <h4 style={{ fontSize: "17px", fontWeight: "500" }}>Lets sky rocket your Dream project togather</h4>
@@ -335,7 +355,7 @@ const PopupX = () => {
                   </div>
                 </div>
               </form>
-
+              
             </div>
 
           </div>

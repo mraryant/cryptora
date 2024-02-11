@@ -8,7 +8,7 @@ import './fonts/Raleway.ttf';
 import './fonts/RalewayBold.ttf';
 
 import './index.css'
-import TopNavbar from './component/TopNavbar.jsx';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

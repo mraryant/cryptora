@@ -11,6 +11,10 @@ import tg from "../assets/tg.png"
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+// tostify 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Landing = () => {
     const form = useRef();
@@ -21,10 +25,26 @@ const Landing = () => {
         emailjs.sendForm('service_t0v8pce', 'template_g5zwo2h', form.current, 'CiV-Bx9xip5ib_tUA')
             .then((result) => {
                 console.log(result.text);
-                console.log("massage send")
+                // Show success message
+                toast.success('✅We got it successfully!😀', {
+                    position: 'top-right',
+                    autoClose: 9000, // Duration for which the toast will be displayed
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
+                toast.success('❌ We are not connect! 😟', {
+                    position: 'top-right',
+                    autoClose: 9000, // Duration for which the toast will be displayed
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
             });
     };
     return (
@@ -62,8 +82,12 @@ const Landing = () => {
                 </div>
 
                 <div className="contact-right">
+                    <ToastContainer
+                        style={{ background: 'black', color: 'white' }}
+                        bodyStyle={{ fontSize: '16px', fontWeight: '800', color: "black" }}
+                    />
 
-                    <form   method="post" id='contact-form' ref={form} onSubmit={sendEmail}>
+                    <form method="post" id='contact-form' ref={form} onSubmit={sendEmail}>
                         <h1>Send Us a Message</h1>
                         <div id="inputs">
 
@@ -74,7 +98,9 @@ const Landing = () => {
                             <input type="tel" id="phone" placeholder='Phone' name="from_phone" />
 
                             {/* <input type="text" id="budget" placeholder='Budget' name="budget" /> */}
-                            <textarea id="message" name="message" rows="5" placeholder='Maggage' required></textarea>
+                            <input type="text" id="budget" placeholder='Budget' name="from_budget" required />
+
+                            <textarea id="message" name="message" rows="5" placeholder='Message' required></textarea>
                         </div>
 
 

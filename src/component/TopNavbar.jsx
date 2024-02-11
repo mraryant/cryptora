@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom'
 import PopupX2 from "../pages/PopupX2"
 import "../component/TopNavbar.css"
 
-import pdf1 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
-import pdf2 from "../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf"
+const pdf1 = "https://drive.google.com/file/d/18V6DuL02Jlh2QPfmOfXy8RjMKXRnE_Tz/view?usp=drive_link"
+const pdf2 = "https://drive.google.com/file/d/13bVhr0Q-UCawOPJuHos2i7AsfPWI1-9-/view?usp=drive_link"
 
 const TopNavbar = () => {
   const [visible, setvisible] = useState('false');
@@ -175,8 +175,8 @@ const TopNavbar = () => {
                       <Link onClick={handleRefresh} to="/Contact-us">Contact-Us</Link>
 
                       <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
-                      <a href={pdf1} download="downloaded_file.pdf">Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
-                      <a href={pdf2} download="downloaded_file.pdf">Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
+                      <a href={pdf1} target='blank' >Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
+                      <a href={pdf2} target='blank' >Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
                       <Link onClick={handleRefresh} to="/PR">PR</Link>
                       {/* <Link onClick={handleRefresh} to={pdf2}>Service Catalogue</Link> */}
                     </div>

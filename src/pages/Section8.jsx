@@ -3,6 +3,7 @@ import '../styles/Section8.css'
 import Arrow from '../assets/narrow.svg'
 import B1 from '../assets/blog1.png'
 import B2 from '../assets/blog2.png'
+import { easeInOut, motion } from "framer-motion"
 // import Footer from '../component/Footer'
 // import Tabs from '../component/Tabs'
 const Section8 = () => {
@@ -18,13 +19,36 @@ const Section8 = () => {
         </header>
         <div className="s8cardsdiv">
           <div className="s8card" style={{ width: "28rem" }}>
-            <img src={B1} className="s8img" alt="..." />
+            <motion.img
+              initial={{
+                scale: 1,
+              }}
+              transition={{
+                easeInOut
+              }}
+              
+              whileHover={{
+                scale: 1.03,
+              }}
+
+              src={B1} className="s8img" alt="..." />
             <div className="s8card-body">
               <h5 className="s8card-title">What is a cryptocurrency?</h5>
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
+                  <motion.img
+                    initial={{
+                      scale: 1,
+                    }}
+                    transition={{
+                easeInOut
+              }}
+                    whileHover={{
+                      scale: 1.03,
+                    }}
+
+                    src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -43,13 +67,35 @@ const Section8 = () => {
             </div>
           </div>
           <div className="s8card" style={{ width: "28rem" }}>
-            <img src={B2} className="s8img" alt="..." />
+            <motion.img
+              initial={{
+                scale: 1,
+              }}
+              transition={{
+                easeInOut
+              }}
+              whileHover={{
+                scale: 1.03,
+              }}
+
+              src={B2} className="s8img" alt="..." />
             <div className="s8card-body">
               <h5 className="s8card-title">Blockchain Technology</h5>
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
+                  <motion.img
+                    initial={{
+                      scale: 1,
+                    }}
+                    transition={{
+                easeInOut
+              }}
+                    whileHover={{
+                      scale: 1.03,
+                    }}
+
+                    src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -68,13 +114,35 @@ const Section8 = () => {
             </div>
           </div>
           <div className="s8card" style={{ width: "28rem" }}>
-            <img src={B1} className="s8img" alt="..." />
+            <motion.img
+              initial={{
+                scale: 1,
+              }}
+              transition={{
+                easeInOut
+              }}
+              whileHover={{
+                scale: 1.03,
+              }}
+
+              src={B1} className="s8img" alt="..." />
             <div className="s8card-body">
               <h5 className="s8card-title">What is a cryptocurrency?</h5>
               <p className="s8card-text">A cryptocurrency, also known as crypto, is a type of digital asset with multiple use cases. {"It's"} primarily a way to transfer value between people digitally, including monetary value, ownership rights, or even voting privileges. Crypto differs from other digital payment.</p>
               <a href="#" className="s8btn ">
                 <div className="logo-container2">
-                  <img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
+                  <motion.img
+                    initial={{
+                      scale: 1,
+                    }}
+                    transition={{
+                easeInOut
+              }}
+                    whileHover={{
+                      scale: 1.03,
+                    }}
+
+                    src={Arrow} className='arimg' alt="I am Just comming ^_^" />
                   <div className="logo-container">
                     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
                       <path id="circlePath" fill="none" strokeWidth="4" d="
@@ -97,7 +165,15 @@ const Section8 = () => {
 
         </div>
         {/* <div className="logo-container2">
-<img src={Arrow} className='arimg' alt="I am Just comming ^_^" />
+<motion.img
+initial={{
+  scale:1,
+}} 
+whileHover={{
+  scale:1.1,
+}}
+  
+src={Arrow} className='arimg' alt="I am Just comming ^_^" />
 <div className="logo-container">
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='cpath'>
     <path id="circlePath"  fill="none" stroke-width="4" d="

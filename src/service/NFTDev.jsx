@@ -3,7 +3,7 @@
 import './ICO.css'
 import Footer from '../component/Footer'
 const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707473795/Cryptora%20Videos/NFT%20dev.mp4'
-const video2 = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707473795/Cryptora%20Videos/NFT%20dev.mp4'
+const video2 = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707633178/Cryptora%20Videos/nft%20video%202.mp4dd'
 import { Helmet } from 'react-helmet'
 const NFTDev = () => {
   const data = {

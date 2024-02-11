@@ -70,7 +70,7 @@ const ContactUs = () => {
               <div className='contact-no'>
 
 
-                <a className='contact-number3' href="">Nagpure Bhawan, Bhatera choky near forest naka balaghat - 481001</a>
+                <a className='contact-number3' href="">Nagpure Bhawan, Bhatera choky near forest naka balaghat - 481001</a>
                 <a className='contact-number3' href="mailto:digitalonebox.com@gmail.com">digitalonebox.com@gmail.com</a>
 
               </div>

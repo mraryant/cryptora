@@ -45,15 +45,15 @@ import fwimg82 from "../assets/fm/82.png"
 import fwimg83 from "../assets/fm/83.png"
 import fwimg84 from "../assets/fm/84.png"
 import fwimg85 from "../assets/fm/85.png"
- 
-
- 
 
 
 
-import pdf1 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
-import pdf2 from "../assets/pdf/CRYPTORA  PRODUCT PROPOSAL 3.pdf"
-import pdf3 from "../assets/pdf/CRYPTORA SERVICE PROPOSAL 1.pdf"
+
+
+
+const pdf1 = "https://drive.google.com/file/d/18V6DuL02Jlh2QPfmOfXy8RjMKXRnE_Tz/view?usp=drive_link"
+const pdf2 = "https://drive.google.com/file/d/13bVhr0Q-UCawOPJuHos2i7AsfPWI1-9-/view?usp=drive_link"
+const pdf3 = "https://drive.google.com/file/d/18V6DuL02Jlh2QPfmOfXy8RjMKXRnE_Tz/view?usp=drive_link"
 
 import folderimg from "../assets/logo/folderimg.png"
 const Section6 = () => {
@@ -64,8 +64,10 @@ const Section6 = () => {
   }
   return (
     <>
+
       <div className="s7main ">
-      <div className="s6overlay"></div>
+        <div className='overlay01'></div>
+        <div className="s6overlay"></div>
         <div className="t-area">
           <p className='s7para1'> Empowering Innovation Through Our Cutting-Edge Tech Stack</p>
 
@@ -92,12 +94,12 @@ const Section6 = () => {
                   onClick={() => handleSectionChange('project')} />
 
                 <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Language</div></label>
-               
+
                 <input type="radio" name="tabs" id="DB-ch"
                   onClick={() => handleSectionChange('DB')} />
 
                 <label htmlFor="DB-ch" style={{ background: activeSection === 'DB' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Database</div></label>
-               
+
                 <input type="radio" name="tabs" id="blockchain-ch"
                   onClick={() => handleSectionChange('blockchain')} />
 
@@ -308,7 +310,7 @@ const Section6 = () => {
                         <img src={fwimg74} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
-                       
+
                     </div>
 
 
@@ -343,7 +345,7 @@ const Section6 = () => {
                         <img src={fwimg85} className='fwimg' alt="I am Just comming ^_^" />
 
                       </div>
-                       
+
                     </div>
 
 
@@ -368,7 +370,7 @@ const Section6 = () => {
           <h5 className="card-text">Service Catalogue</h5>
           <img className="rounded center" src={folderimg} alt="image" width="74px" height="59px" />
         </a>
-        
+
         <a target='blank' id='card' href={pdf3}>
 
           <h5 className="card-text">Product Catalogue</h5>

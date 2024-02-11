@@ -95,7 +95,7 @@ const Crypto = () => {
       </Helmet>
 
       <div id="cryptobody">
-        {/* <TopNavbar /> */}
+         
         <video autoPlay loop muted playsInline className='video'>
           <source src={coinvi} type='video/mp4' />
 

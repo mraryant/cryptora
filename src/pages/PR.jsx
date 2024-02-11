@@ -1,8 +1,8 @@
 import "../styles/PR.css";
-import { easeInOut, motion } from "framer-motion";
-import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion";
+// import Marquee from "react-fast-marquee";
 
-import pr1 from "../assets/pr/bloomberg.png"
+// import pr1 from "../assets/pr/bloomberg.png"
 
 const PR = () => {
     const staggerVariants = {
@@ -16,8 +16,8 @@ const PR = () => {
     };
 
     const childVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, y: 20 , scale:1.5 },
+        visible: { opacity: 1, y: 0, scale:1 },
     };
 
     return (
@@ -27,7 +27,7 @@ const PR = () => {
                 <motion.div
                     id="pr-head"
                     initial="hidden"
-                    transition={easeInOut}
+                    transition={{ ease: "easeInOut" }}
                     whileInView="visible"
                     variants={staggerVariants}
                 >
@@ -43,7 +43,7 @@ const PR = () => {
                 </motion.div>
             </motion.div>
 
-            
+
 
             {/* <Marquee direction="right" speed={100} >
                 <div className="image_wrapper">

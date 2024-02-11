@@ -1,10 +1,11 @@
 import Footer from "../component/Footer"
- 
 import "../styles/Aboutus.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "@itseasy21/react-elastic-carousel";
 import { Link } from "react-router-dom";
+const abtvideo = "https://res.cloudinary.com/dyqkppjr1/video/upload/v1707620258/Cryptora%20Videos/about%20video.mp4"
 
+import abtgif from "../assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif"
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -30,8 +31,14 @@ const Aboutus = () => {
     }
     return (
         <>
-             
+
             <div id="ABT-hero">
+                <div style={{ height: "100%" }} className='abtvideo' >
+                    <video autoPlay loop muted playsInline className='abtvideo abtv1'>
+                        <source src={abtvideo} type='video/mp4' />
+                    </video>
+                    <div className='overlay01'></div>
+                </div>
 
                 <div id='ABTsec2' className="container">
                     <div id="ABTleft">
@@ -39,7 +46,7 @@ const Aboutus = () => {
                         <p className='ABTheading'>{data.heading2}</p>
                         <p className='ABTparagraph'>{data.paragraph2}</p>
                         <div className='ABTbutton'>
-                            <Link   to='/contact-us' style={{ textDecoration: "none" }} className='dexbutton'>
+                            <Link to='/contact-us' style={{ textDecoration: "none" }} className='dexbutton'>
                                 Contact
                             </Link>
 
@@ -61,12 +68,12 @@ const Aboutus = () => {
                 <div id='ABTsec3' className="container">
                     <div id="ABTright3">
                         <div className='ABTright3'>
-                            <picture>
+                            <picture  >
                                 {/* Source for browsers that support the "srcset" attribute */}
-                                <source srcSet="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" type="image/gif" />
+                                <source style={{ borderRadius: "10px" }} srcSet={abtgif} type="image/gif" />
 
                                 {/* Fallback source for browsers that do not support "srcset" */}
-                                <img id="ABTgif" src="/src/assets/1652176147CRYPTORA CAMPAIGN POSTS (300 × 300px).gif" alt="I am Just comming ^_^" />
+                                <img style={{ borderRadius: "10px" }} id="ABTgif" src={abtgif} alt="I am Just comming ^_^" />
                             </picture>
                         </div>
                     </div>
@@ -97,30 +104,30 @@ const Aboutus = () => {
             </div>
 
             <div id="carousel">
-                <Carousel  
+                <Carousel
                     breakPoints={breakPoints}
                 >
 
                     <div id="cor-card">
-                         
+
                         <h1>Yatika Tyagi</h1>
                         <h3>Essenz Founder</h3>
                         <p>Many thanks to our Blockchain Partner @Cryptora Tech for helping us to get our own a own token and achieve our hard cap. It was a pleasure working with you guys.</p>
                     </div>
                     <div id="cor-card">
-                         
+
                         <h1>Asvin Choudhary</h1>
                         <h3>Flutter Developer</h3>
                         <p> We were delighted that working with them felt exactly like we had expected after getting to know them a little bit. </p>
                     </div>
-                    
+
                     <div id="cor-card">
-                         
+
                         <h1>Amrita Mishra</h1>
                         <h3>CMO, Alphabit Capital</h3>
                         <p>We had a great partnership with Cryptora Tech to getting a own NFT marketplace.Thanks for your hard work and enthusiasm. It was our pleasure to work with such professionals.</p>
                     </div>
-                     
+
 
                 </Carousel>
             </div>

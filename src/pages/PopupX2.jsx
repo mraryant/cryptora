@@ -19,9 +19,9 @@ const PopupX2 = () => {
             .then((result) => {
                 console.log(result.text);
                 // Show success message
-                toast.success('We got it successfully!😀', {
+                toast.success('✅ We got it successfully!😀', {
                     position: 'top-right',
-                    autoClose: 3000, // Duration for which the toast will be displayed
+                    autoClose: 4000, // Duration for which the toast will be displayed
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
@@ -30,6 +30,14 @@ const PopupX2 = () => {
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
+                toast.error('❌ We are not connect! 😟', {
+                    position: 'top-right',
+                    autoClose: 4000, // Duration for which the toast will be displayed
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
             });
     };
 

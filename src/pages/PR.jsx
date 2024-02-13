@@ -1,8 +1,21 @@
 import "../styles/PR.css";
 import { motion } from "framer-motion";
-// import Marquee from "react-fast-marquee";
+import rocket from "../assets/Videosa/rocker pr3.jpg"
 
-// import pr1 from "../assets/pr/bloomberg.png"
+import pr1 from "../assets/pr/182315.png"
+import pr2 from "../assets/pr/abc news.png"
+import pr3 from "../assets/pr/blomberg.png"
+import pr4 from "../assets/pr/btc.com.png"
+import pr5 from "../assets/pr/cointelegraph.svg"
+import pr6 from "../assets/pr/crypto Daily.png"
+import pr7 from "../assets/pr/daily-herald.png"
+import pr8 from "../assets/pr/Entrepreneur.png"
+import pr9 from "../assets/pr/forbes-logo-40229.png"
+import pr10 from "../assets/pr/googlenews.png"
+import pr11 from "../assets/pr/marketwatch.png"
+import pr12 from "../assets/pr/UTODAY.png"
+import pr13 from "../assets/pr/BTC-Hunts.png"
+import pr14 from "../assets/pr/yahoo-1-400x140.png"
 
 const PR = () => {
     const staggerVariants = {
@@ -16,8 +29,8 @@ const PR = () => {
     };
 
     const childVariants = {
-        hidden: { opacity: 0, y: 20 , scale:1.5 },
-        visible: { opacity: 1, y: 0, scale:1 },
+        hidden: { opacity: 0, y: 20, scale: 1.5 },
+        visible: { opacity: 1, y: 0, scale: 1 },
     };
 
     return (
@@ -43,16 +56,31 @@ const PR = () => {
                 </motion.div>
             </motion.div>
 
+            <div id="pr-image-main">
+                <img src={rocket} alt="comming..." id="pr-rocket" />
+            </div>
 
-
-            {/* <Marquee direction="right" speed={100} >
-                <div className="image_wrapper">
-
-                    <img src={pr1} alt="" />
-
-                    <img src={pr1} alt="" />
+            <div className=" d-flex flex-column justify-content-center align-items-center ">
+                <h1 className=" fs-1 fw-bolder ">OUR TOP PR</h1>
+                <p className=" text-center" >Over  Customers from Organization, Enterprises, Startup to individual advertisers to improve their online visibity, brand credibility, awareness and web presence.</p>
+                <div id="pr-topmedia">
+                    <div className="pr-brand"><img src={pr1} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr2} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr3} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr4} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr5} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr6} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr7} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr8} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr9} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr10} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr11} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr12} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr13} alt="brand" className="brand-img" /></div>
+                    <div className="pr-brand"><img src={pr14} alt="brand" className="brand-img" /></div>
                 </div>
-            </Marquee> */}
+            </div>
+
 
 
         </div >

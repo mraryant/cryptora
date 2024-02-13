@@ -1,12 +1,12 @@
 // import React from 'react'
 import '../styles/Section5.css'
-import TD from '../assets/td.jpg'
+const TD = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707828117/Cryptora%20Videos/home-token-dev.mp4'
 const NFTD = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707626990/Cryptora%20Videos/home%20nft%20marketplace.mp4'
 // import ICO from '../assets/ICO.png'
 const ICO = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707622112/Cryptora%20Videos/home%20ICO.mp4'
 const WALLET = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707626987/Cryptora%20Videos/home%20wallet.mp4'
 // import Arrow from '../assets/narrow.svg'
-import META from '../assets/meta.png'
+const META = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707828117/Cryptora%20Videos/home-metaverse.mp4'
 import Point from '../assets/bullet.svg'
 import { motion } from "framer-motion";
 const Section5 = () => {
@@ -64,7 +64,13 @@ const Section5 = () => {
 </div> */}
         </div>
         <div className="s5right">
-          <img src={TD} style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
+          <div style={{ width: "80%", height: "80%", position: "relative" }}>
+
+          <div className="radialgradient"  ></div>
+          <div className="  rg2"  ></div>
+            <video autoPlay muted loop src={TD} style={{ transform: "scaleX(-1)", width: "99%", height: "99%" }} alt="I am Just comming ^_^" />
+
+          </div>
         </div>
 
       </div>
@@ -95,7 +101,7 @@ const Section5 = () => {
             <div className="radialgradient"  ></div>
             <div className="  rg2"  ></div>
             <video autoPlay muted loop src={NFTD} style={{ width: "99%", height: "99%" }} alt="I am Just comming ^_^" />
-            {/* <video style={{ width: "100%", height: "100%" }} autoPlay loop muted src={ICO}></video> */}
+
           </div>
 
         </div>
@@ -174,7 +180,13 @@ const Section5 = () => {
         </div>
         <div className="s5right">
 
-          <img src={META} style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" />
+          {/* <img src={META} style={{ width: "100%", height: "100%" }} alt="I am Just comming ^_^" /> */}
+          <div style={{ width: "80%", height: "80%", position: "relative" }}>
+
+            <div className="radialgradient"  ></div>
+            <div className="  rg2"  ></div>
+            <video style={{ width: "100%", height: "100%" }} autoPlay loop muted src={META}></video>
+          </div>
 
         </div>
 

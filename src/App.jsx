@@ -26,11 +26,16 @@ const Crypto = lazy(() => import('./service/Crypto'));
 const Decentralized = lazy(() => import('./service/Decentralized'));
 const CryptoWallet = lazy(() => import('./service/CryptoWallet'));
 const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
-
-
+import logo from "./assets/logo/favicon.png"
+import { easeInOut, motion } from "framer-motion"
 // Loading spinner component
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <motion.img
+      initial={{ scale: 1, }}
+      transition={{ repeat: Infinity, ease: easeInOut, duration: 5, }}
+      animate={{ scale: [1, 1.5, 1], }}
+      style={{ height: "100px", width: "100px", position: "absolute" }} src={logo} alt="" />
     <div className="loader">
     </div>
   </div>
@@ -52,10 +57,10 @@ const App = () => {
 
       <Microservice />
       <BrowserRouter>
-        <Headroom>
+        <Headroom style={{ zIndex: 99 }}>
           <TopNavbar />
         </Headroom>
-        <Suspense fallback={isLoading ? <Loader /> : null}>
+        <Suspense fallback={isLoading ? <Loader /> : null} >
 
           <Routes>
             <Route path="*" element={<Navigate to="/" />} />
@@ -76,6 +81,7 @@ const App = () => {
             <Route path="Landing" element={<Landing />} />
             <Route path="TermCondition" element={<TermCondition />} />
             <Route path="PR" element={<PR />} />
+            {/* <Route path="loader" element={<Loader />} /> */}
           </Routes>
         </Suspense>
       </BrowserRouter>

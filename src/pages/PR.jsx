@@ -56,13 +56,17 @@ const PR = () => {
                 </motion.div>
             </motion.div>
 
-            <div id="pr-image-main">
-                <img src={rocket} alt="comming..." id="pr-rocket" />
-            </div>
+            <motion.div
 
-            <div className=" d-flex flex-column justify-content-center align-items-center ">
-                <h1 className=" fs-1 fw-bolder ">OUR TOP PR</h1>
-                <p className=" text-center" >Over  Customers from Organization, Enterprises, Startup to individual advertisers to improve their online visibity, brand credibility, awareness and web presence.</p>
+                id="pr-image-main">
+                <img src={rocket} alt="comming..." id="pr-rocket" />
+            </motion.div>
+
+            <div className=" mt-5 gap-3 d-flex flex-column justify-content-center align-items-center ">
+                <h1 className=" fs-1 fw-bolder text-center ">Our Clients Are Featured In</h1>
+                <p className="w-50 text-center d-none d-md-block">Over Customers from Organization, Enterprises, Startup to individual advertisers to improve their online visibility, brand credibility, awareness, and web presence.</p>
+                <p className="w-90 text-center d-md-none">Over Customers from Organization, Enterprises, Startup to individual advertisers to improve their online visibility, brand credibility, awareness, and web presence.</p>
+
                 <div id="pr-topmedia">
                     <div className="pr-brand"><img src={pr1} alt="brand" className="brand-img" /></div>
                     <div className="pr-brand"><img src={pr2} alt="brand" className="brand-img" /></div>

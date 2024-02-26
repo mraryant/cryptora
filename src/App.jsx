@@ -28,6 +28,7 @@ const CryptoWallet = lazy(() => import('./service/CryptoWallet'));
 const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
 import logo from "./assets/logo/favicon.png"
 import { easeInOut, motion } from "framer-motion"
+import PRprice from './pages/PRprice';
 // Loading spinner component
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -81,6 +82,7 @@ const App = () => {
             <Route path="Landing" element={<Landing />} />
             <Route path="TermCondition" element={<TermCondition />} />
             <Route path="PR" element={<PR />} />
+            <Route path="PRprice" element={<PRprice />} />
             {/* <Route path="loader" element={<Loader />} /> */}
           </Routes>
         </Suspense>

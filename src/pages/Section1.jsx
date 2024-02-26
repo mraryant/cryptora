@@ -5,13 +5,13 @@ import '../styles/Social.css'
 const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707462030/Cryptora%20Videos/homwpage%20sec2%20video.mp4'
 import Arrow from '../assets/down.gif'
 // import { motion } from "framer-motion"
+
 function Section1() {
   return (
     <>
       <div className="main">
         <video autoPlay loop muted playsInline className='video v1'>
           <source src={Waves} type='video/mp4' />
-
         </video>
         <div className='overlay01'></div>
         <div className="trial1">

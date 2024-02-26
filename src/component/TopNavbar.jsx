@@ -40,9 +40,10 @@ const TopNavbar = () => {
           <a className="navbar-brand" href="/"><img src={Logo} alt="I am Just comming ^_^" style={{ width: "90%", height: "90%" }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span ><img src="/apps.png" alt="I am Just comming ^_^" /></span>
+            <span ><img src="/apps.png" alt=" comming ^_^" /></span>
           </button>
           <div className="collapse navbar-collapse navcollapse" id="navbarSupportedContent">
+          
             <div className="nav1 navbar-nav me-auto mb-2 mb-lg-0">
 
               <div className="nftdropdown">
@@ -72,7 +73,7 @@ const TopNavbar = () => {
               <div className="nftdropdown">
                 <Link to="/nft-marketplace-development" style={{ textDecoration: "none" }}>
                   <buttonb >
-                    <span style={{ textAlign: 'center' }}>NFT Marketplace</span>
+                    <span style={{textAlign: 'center' }}>NFT Marketplace</span>
 
                   </buttonb>
                 </Link>
@@ -178,6 +179,7 @@ const TopNavbar = () => {
                       <a href={pdf1} target='blank' >Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
                       <a href={pdf2} target='blank' >Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
                       <Link onClick={handleRefresh} to="/PR">PR</Link>
+                      <Link onClick={handleRefresh} to="/PRprice">PRprice</Link>
                       {/* <Link onClick={handleRefresh} to="/loader">Loader</Link> */}
                       {/* <Link onClick={handleRefresh} to={pdf2}>Service Catalogue</Link> */}
                     </div>
@@ -196,6 +198,7 @@ const TopNavbar = () => {
                 <PopupX2 />
               </div>
             </div>
+
           </div>
         </div>
       </nav>

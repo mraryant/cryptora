@@ -16,6 +16,7 @@ import pr11 from "../assets/pr/marketwatch.png"
 import pr12 from "../assets/pr/UTODAY.png"
 import pr13 from "../assets/pr/BTC-Hunts.png"
 import pr14 from "../assets/pr/yahoo-1-400x140.png"
+import { Link } from "react-router-dom";
 
 const PR = () => {
     const staggerVariants = {
@@ -50,9 +51,11 @@ const PR = () => {
                     <motion.p variants={childVariants}>
                         Cryptora is a top-tier press release distribution service, offering a complete solution for creating, optimizing, targeting, and measuring content impact. With a global presence and advanced technology, we serve tens of thousands of clients worldwide. Our platform ensures your messages reach your audience effectively, making Cryptora the go-to choice for premium press release distribution.
                     </motion.p>
-                    <motion.button className="s4button" variants={childVariants}>
-                        GET STARTED
-                    </motion.button>
+                    <motion.div variants={childVariants}>
+                        <Link to="/PRprice" className="s4button" style={{ textDecoration: "none" }} >
+                            GET STARTED
+                        </Link>
+                    </motion.div>
                 </motion.div>
             </motion.div>
 

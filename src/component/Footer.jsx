@@ -2,7 +2,7 @@
 import '../styles/Footer.css'
 import Arrow from '../assets/arre.gif'
 import { Link } from 'react-router-dom'
-import Logo from "../assets/cryptora.png"
+import Logo from "/cryptora.png"
 
 import ws from "../assets/wa.png"
 import x from "../assets/x.png"

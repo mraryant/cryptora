@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const PRpriceCard = ({ title, price, features, priceNum }) => {
     return (
         <>
-            <div className="price-card"  >
+            <div className="price-card">
 
                 <div className="price-card-header">
                     <h3>{title}</h3>
@@ -13,17 +13,18 @@ const PRpriceCard = ({ title, price, features, priceNum }) => {
                 </div>
 
                 <div className="price-card-features">
-                    <ul>
+                    <ul className="d-flex flex-column gap-2 " >
                         {features.map((feature) => (
                             <>
-                                <div id="features" className="d-flex gap-2">
+                                <div id="features" className="d-flex gap-1 ">
                                     <div style={{
-                                        height: "20px",
-                                        width: "25px",
+                                        height: "15px",
+                                        width: "20px",
                                         display: "flex",
                                         justifyContent: "center",
                                         alignItems: "center",
                                         padding: "2px",
+                                        margin: "5px",
                                         borderRadius: "100%",
                                         backgroundColor: "#e7e7e7"
                                     }} >
@@ -51,5 +52,6 @@ PRpriceCard.propTypes = {
     title: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired,
     features: PropTypes.array.isRequired,
+    priceNum: PropTypes.string.isRequired,
 };
 export default PRpriceCard

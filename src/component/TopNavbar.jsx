@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import Logo from '../assets/cryptora.png'
+import Logo from '/cryptora.png'
 import Button1 from './Button1'
 import '../styles/TopNavbar.css'
 import '../styles/NavOption.css'
@@ -43,7 +43,7 @@ const TopNavbar = () => {
             <span ><img src="/apps.png" alt=" comming ^_^" /></span>
           </button>
           <div className="collapse navbar-collapse navcollapse" id="navbarSupportedContent">
-          
+
             <div className="nav1 navbar-nav me-auto mb-2 mb-lg-0">
 
               <div className="nftdropdown">
@@ -73,7 +73,7 @@ const TopNavbar = () => {
               <div className="nftdropdown">
                 <Link to="/nft-marketplace-development" style={{ textDecoration: "none" }}>
                   <buttonb >
-                    <span style={{textAlign: 'center' }}>NFT Marketplace</span>
+                    <span style={{ textAlign: 'center' }}>NFT Marketplace</span>
 
                   </buttonb>
                 </Link>
@@ -176,7 +176,7 @@ const TopNavbar = () => {
                       <Link onClick={handleRefresh} to="/Contact-us">Contact-Us</Link>
 
                       <Link onClick={handleRefresh} to="/Aboutus">About Us</Link>
-                      <Link onClick={handleRefresh} to="/PR">PR Service</Link>
+                      {/* <Link onClick={handleRefresh} to="/PR">PR Service</Link> */}
                       <a href={pdf1} target='blank' >Pitch Desk PDF  <i className="fa-solid fa-download"></i> </a>
                       <a href={pdf2} target='blank' >Service Catalogue PDF  <i className="fa-solid fa-download"></i>  </a>
                       {/* <Link onClick={handleRefresh} to="/PRprice">PRprice</Link> */}

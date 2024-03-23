@@ -3,7 +3,7 @@ import '../styles/Section1.css'
 import '../styles/Button2.css'
 import '../styles/Social.css'
 const Waves = 'https://res.cloudinary.com/dyqkppjr1/video/upload/v1707462030/Cryptora%20Videos/homwpage%20sec2%20video.mp4'
-import Arrow from '../assets/down.gif'
+import Arrow from '/down.gif'
 // import { motion } from "framer-motion"
 
 function Section1() {

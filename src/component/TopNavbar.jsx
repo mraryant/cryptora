@@ -57,10 +57,10 @@ const TopNavbar = () => {
                   <div className="navdiv">
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
 
-                      <Link onClick={handleRefresh} to="/token-development">Smart Contract Development</Link>
                       <Link onClick={handleRefresh} to="/token-development">Token/Coin development</Link>
+                      <Link onClick={handleRefresh} to="/SmartContractDev">Smart Contract Development</Link>
+                      <Link onClick={handleRefresh} to="/TokenomicsDev">Tokenomics Design</Link>
                       <Link onClick={handleRefresh} to="/token-development">White Paper Design</Link>
-                      <Link onClick={handleRefresh} to="/token-development">Tokenomics Design</Link>
                       <Link onClick={handleRefresh} to="/token-development">Custom Smart Contract</Link>
                       <Link onClick={handleRefresh} to="/token-development">Meme Token Development</Link>
                       <Link onClick={handleRefresh} to="/token-development">Stable Coin Development</Link>

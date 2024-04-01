@@ -4,8 +4,6 @@
   height: 100%;
   padding: 0%;
   box-sizing: border-box;
-
-
 }
 
 #icosec1 {
@@ -21,7 +19,6 @@
 .icosec1main {
   overflow: hidden;
   position: relative;
-
 }
 
 #icosec2 {
@@ -90,7 +87,6 @@
 }
 
 #icoright {
-
   width: 50%;
   height: 90%;
   display: flex;
@@ -106,7 +102,6 @@
   position: absolute;
   opacity: 0.5;
   right: 0%;
-
 }
 
 .icohead {
@@ -114,12 +109,12 @@
   color: white;
   z-index: 0;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .icoheading {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -131,7 +126,7 @@
 
 .icosmall {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: left;
   font-size: 16px;
   font-style: normal;
@@ -145,7 +140,7 @@
 
 .s5small {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -159,7 +154,7 @@
 
 .icoparagraph {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -180,7 +175,6 @@
   gap: 3vmax;
   justify-content: flex-start;
   width: 100%;
-
 }
 
 /* CARDS */
@@ -195,7 +189,7 @@
   padding: 32px;
   overflow: hidden;
   border-radius: 10px;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .icocontent {
@@ -204,7 +198,7 @@
   align-items: flex-start;
   gap: 20px;
   color: #e8e8e8;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .icocontent .heading {
@@ -238,7 +232,7 @@
   height: 5px;
   background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
   z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .icocard:hover::before {
@@ -264,7 +258,6 @@
   box-shadow: none;
 }
 
-
 /* CARD2 */
 
 .n5container {
@@ -275,7 +268,6 @@
   align-items: center;
   width: 22em;
   max-width: 80%;
-
 }
 
 .n5card {
@@ -301,7 +293,6 @@
   width: 100%;
   background: orange;
   height: 4px;
-
 }
 
 .n5card::before {
@@ -411,7 +402,7 @@
 }
 
 .dexbutton::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -457,20 +448,18 @@
   transition: box-shadow 0.2s ease-in;
 }
 
-
-@media (min-width:768px) and (max-width:1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
   .icocard {
     width: 40%;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   #icosec1 {
     flex-direction: column-reverse;
     height: auto;
     text-align: center;
     height: 90vh;
-
   }
 
   #icoright {
@@ -487,13 +476,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .icohead {
     font-size: 50px;
     font-weight: 700;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .icopara {
@@ -507,17 +497,14 @@
   #icosec4 {
     flex-direction: column-reverse;
     padding: 10px;
-
   }
 
   #icosec5 {
     flex-direction: column;
     padding: 10px;
-
   }
 
   #s5main {
-
     width: auto;
   }
 }
@@ -528,8 +515,6 @@
   height: 100%;
   padding: 0%;
   box-sizing: border-box;
-
-
 }
 
 #nftsec1 {
@@ -543,7 +528,6 @@
 }
 
 .nftsec1main {
-
   overflow: hidden;
   position: relative;
 }
@@ -614,7 +598,6 @@
 }
 
 #nftright {
-
   width: 50%;
   height: 90%;
   display: flex;
@@ -627,9 +610,6 @@
   z-index: 0;
   width: 100%;
   height: 25.69em;
-
-
-
 }
 
 .nftvideo2 {
@@ -637,21 +617,18 @@
   width: 100%;
   height: 25.69em;
   transform: scale(1.3);
-
-
-
 }
 
 .nfthead {
   font-size: 50px;
   font-weight: 700;
   z-index: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .nftheading {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -663,7 +640,7 @@
 
 .nftsmall {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: left;
   font-size: 16px;
   font-style: normal;
@@ -677,7 +654,7 @@
 
 .s5small {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -691,7 +668,7 @@
 
 .nftparagraph {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -711,7 +688,6 @@
   gap: 40px;
   justify-content: flex-start;
   width: 100%;
-
 }
 
 /* CARDS */
@@ -726,7 +702,7 @@
   padding: 32px;
   overflow: hidden;
   border-radius: 10px;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .nftcontent {
@@ -735,7 +711,7 @@
   align-items: flex-start;
   gap: 20px;
   color: #e8e8e8;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .nftcontent .heading {
@@ -769,7 +745,7 @@
   height: 5px;
   background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
   z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .nftcard:hover::before {
@@ -795,7 +771,6 @@
   box-shadow: none;
 }
 
-
 /* CARD2 */
 
 .n5container {
@@ -804,7 +779,6 @@
 
   width: 22em;
   max-width: 80%;
-
 }
 
 .n5card {
@@ -830,7 +804,6 @@
   width: 100%;
   background: orange;
   height: 4px;
-
 }
 
 .n5card::before {
@@ -907,14 +880,11 @@
   transform: none;
 }
 
-
-@media (min-width:768px) and (max-width:1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
   .nftcard {
     width: 40%;
   }
 }
-
-
 
 .overlay01 {
   width: 100%;
@@ -926,21 +896,25 @@
   right: 0%;
   bottom: 0%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.505) 39%,
+    rgba(0, 0, 0, 0.308) 77%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 :root {
   --background: #000000;
-  --color: #FAFAFA;
+  --color: #fafafa;
 
   --index: 0;
   --index: 1;
   --index: 2;
 }
 
-
 .stack {
-
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -955,7 +929,9 @@
   --clip-top: calc(var(--stack-height) * var(--index));
   --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
   clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
-  animation: stack 340ms cubic-bezier(.46, .29, 0, 1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+  animation: stack 340ms cubic-bezier(0.46, 0.29, 0, 1.24) 1 backwards
+      calc(var(--index) * 120ms),
+    glitch 2s ease infinite 2s alternate-reverse;
 }
 
 .stack span:nth-child(odd) {
@@ -972,8 +948,6 @@
     transform: translateX(-50%);
     text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
   }
-
-  ;
 
   60% {
     opacity: 0.5;
@@ -1008,9 +982,7 @@
   }
 }
 
-
-
-@media (max-width:768px) {
+@media (max-width: 768px) {
   #nftsec1 {
     flex-direction: column-reverse;
     height: auto;
@@ -1018,8 +990,6 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-
-
   }
 
   #nftsec2 {
@@ -1038,13 +1008,14 @@
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .nftpara {
     font-size: 18px;
   }
-
 
   .nftcard {
     width: auto;
@@ -1053,7 +1024,6 @@
   #nftsec4 {
     flex-direction: column-reverse;
     padding: 10px;
-
   }
 
   #nftsec5 {
@@ -1061,11 +1031,9 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
-
   }
 
   #s5main {
-
     width: auto;
   }
 
@@ -1079,13 +1047,9 @@
     height: 300px;
 
     transform: scale(1.3);
-
-
-
   }
 
   #nftright {
-
     display: none;
   }
 

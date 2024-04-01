@@ -1,6 +1,6 @@
 
 import './Crypto.css'
-
+ 
 import './Service.css'
 import Footer from '../component/Footer'
 import token1 from '../assets/token1.png'
@@ -95,7 +95,7 @@ const Crypto = () => {
       </Helmet>
 
       <div id="cryptobody">
-         
+
         <video autoPlay loop muted playsInline className='video'>
           <source src={coinvi} type='video/mp4' />
 
@@ -153,12 +153,16 @@ const Crypto = () => {
             </div>
           </div>
         </div>
+
+
         <div id="s5main" className='container'>
           <p className='s5small'>{data.small3}</p>
           <p className='cryptoheading'>{data.heading3}</p>
           <p className='cryptoparagraph'>
             {data.paragraph3}</p>
         </div>
+
+
         <div id='cryptosec3'>
           <div className="cryptocard">
             <div className="cryptocontent">
@@ -220,6 +224,8 @@ const Crypto = () => {
 
 
         </div>
+
+
         <div id='cryptosec2' className="container">
           <div id="cryptoleft">
             <p className='cryptosmall'>{data.small4} </p>

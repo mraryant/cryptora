@@ -4,8 +4,6 @@
   height: 100%;
   padding: 0%;
   box-sizing: border-box;
-
-
 }
 
 #cryptosec1 {
@@ -35,7 +33,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+
   align-items: center;
   gap: 20px;
   padding: 20px;
@@ -65,7 +63,7 @@
 }
 
 #cryptosec5 {
-  width: 100%;
+  max-width: 1320px;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -87,7 +85,13 @@
   right: 0%;
   bottom: 0%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.505) 39%,
+    rgba(0, 0, 0, 0.308) 77%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 #cryptoleft {
@@ -112,7 +116,6 @@
 }
 
 #cryptoright {
-
   width: 50%;
   height: 90%;
   display: flex;
@@ -124,20 +127,18 @@
   z-index: 0;
   width: 100%;
   height: 25.69em;
-
-
-
 }
 
 .cryptohead {
   font-size: 50px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  line-height: normal;
+  font-family: "Manrope", sans-serif;
 }
 
 .cryptoheading {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -149,7 +150,7 @@
 
 .cryptosmall {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: left;
   font-size: 16px;
   font-style: normal;
@@ -163,7 +164,7 @@
 
 .s5small {
   color: #eb5722;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -177,7 +178,7 @@
 
 .cryptoparagraph {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   margin: 5px;
   font-style: normal;
@@ -197,7 +198,6 @@
   gap: 2vmax;
   justify-content: flex-start;
   width: 100%;
-
 }
 
 /* CARDS */
@@ -212,7 +212,7 @@
   padding: 32px;
   overflow: hidden;
   border-radius: 10px;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .cryptocontent {
@@ -221,7 +221,7 @@
   align-items: flex-start;
   gap: 20px;
   color: #e8e8e8;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .cryptocontent .heading {
@@ -255,7 +255,7 @@
   height: 5px;
   background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
   z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .cryptocard:hover::before {
@@ -281,7 +281,6 @@
   box-shadow: none;
 }
 
-
 /* CARD2 */
 
 .n5container {
@@ -292,7 +291,6 @@
   align-items: center;
   width: 22em;
   max-width: 80%;
-
 }
 
 .n5card {
@@ -318,7 +316,6 @@
   width: 100%;
   background: orange;
   height: 4px;
-
 }
 
 .n5card::before {
@@ -406,7 +403,7 @@
 }
 
 .dexbutton::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -452,7 +449,6 @@
   transition: box-shadow 0.2s ease-in;
 }
 
-
 .n5card:hover::before {
   width: 100%;
   opacity: 1;
@@ -475,25 +471,39 @@
   transform: none;
 }
 
-
-@media (min-width:768px) and (max-width:1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
   .cryptocard {
     width: 40%;
+    padding: 30px 15px;
+  }
+  #cryptosec3 {
+    padding: 10px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .cryptosec1main {
     background-color: #00000090;
   }
 
+  .n5container {
+    max-width: 100%;
+    /* padding: 20px; */
+  }
+  .n5card {
+    max-width: 100%;
+  }
+  .n5content {
+    /* width: 100%; */
+  }
+  #cryptosec3 {
+    padding: 20px;
+  }
   #cryptosec1 {
     flex-direction: column-reverse;
     height: auto;
     text-align: center;
     height: 85vh;
-
-
   }
 
   #cryptosec2 {
@@ -503,13 +513,14 @@
   #cryptoleft {
     width: auto;
     gap: 10px;
-
   }
 
   .cryptohead {
     font-size: 40px;
     font-weight: 700;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .cryptopara {
@@ -518,27 +529,24 @@
 
   #cryptoright {
     width: auto;
-
   }
 
   .cryptocard {
-    width: auto;
+    width: 100%;
+    padding: 30px 15px;
   }
 
   #cryptosec4 {
     flex-direction: column-reverse;
     padding: 10px;
-
   }
 
   #cryptosec5 {
     flex-direction: column;
     padding: 10px;
-
   }
 
   #s5main {
-
-    width: auto;
+    width: 100%;
   }
 }

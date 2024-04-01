@@ -29,6 +29,8 @@ const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
 import logo from "./assets/logo/favicon.png"
 import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
+import SmartContractDev from './internalPages/coinDev/SmartContractDev';
+import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
 // Loading spinner component
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -83,6 +85,8 @@ const App = () => {
             <Route path="TermCondition" element={<TermCondition />} />
             <Route path="PR" element={<PR />} />
             <Route path="PRprice" element={<PRprice />} />
+            <Route path="SmartContractDev" element={ <SmartContractDev/> } />
+            <Route path="TokenomicsDev" element={<TokenomicsDev/> } />
             {/* <Route path="loader" element={<Loader />} /> */}
           </Routes>
         </Suspense>

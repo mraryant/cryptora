@@ -11,10 +11,10 @@ import Footer from "../../component/Footer"
 
 
 // hero segment 1
-import smContractHero from "../../../public/NftGameDev/nftgamebg2.png"
+import smContractHero from "/NftGameDev/nftgamebg2.png"
 
 // segment 2
-import token1 from '../../../public/NftGameDev/nftseg2.png'
+import token1 from '/NftGameDev/nftseg2.png'
 
 //segment3   servce section images 
 import img1 from '/Crypto/cryptoc1.png'
@@ -26,7 +26,7 @@ import img6 from '/Crypto/cryptoc6.png'
 
 
 // segment4
-import token2 from '../../../public/NftGameDev/nftseg4.png'
+import token2 from '/NftGameDev/nftseg4.png'
 
 //segment 5  features section images  
 import emg1 from "/Crypto/crypto1.png"

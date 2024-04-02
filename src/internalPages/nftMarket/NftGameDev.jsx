@@ -1,3 +1,4 @@
+
 import "../../service/Crypto.css"
 
 //segments
@@ -10,10 +11,10 @@ import Footer from "../../component/Footer"
 
 
 // hero segment 1
-import smContractHero from "/smartContractDev/smContract-hero.png"
+import smContractHero from "../../../public/NftGameDev/nftgamebg2.png"
 
 // segment 2
-import token1 from '/smartContractDev/smContract-seg2.jpg'
+import token1 from '../../../public/NftGameDev/nftseg2.png'
 
 //segment3   servce section images 
 import img1 from '/Crypto/cryptoc1.png'
@@ -25,7 +26,7 @@ import img6 from '/Crypto/cryptoc6.png'
 
 
 // segment4
-import token2 from '/smartContractDev/seg4.jpg'
+import token2 from '../../../public/NftGameDev/nftseg4.png'
 
 //segment 5  features section images  
 import emg1 from "/Crypto/crypto1.png"
@@ -35,13 +36,7 @@ import emg4 from "/Crypto/crypto4.png"
 import emg5 from "/Crypto/crypto5.png"
 import emg6 from "/Crypto/crypto6.png"
 
-
-
-
-
-
-const SmartContractDev = () => {
-
+const NftGameDev = () => {
     const imagesForSeg3 = {
         img1: img1,
         img2: img2,
@@ -65,8 +60,8 @@ const SmartContractDev = () => {
     const data1 = {
         // segment1 
         smContractHero: smContractHero,
-        "heading1": "Smart contract development",
-        "para1": "Begin your Smart Contract Development journey! Master Ethereum, Solidity, and Truffle to create secure, decentralized applications. Learn data structures, payment handling, and testing techniques. Build the future now!",
+        "heading1": "NFT Game Development  ",
+        "para1": "Experience gaming's future with cryptora.tech: premier NFT Game Development Company. Uniting blockchain tech, NFTs, rare in-game assets, and immersive gameplay for groundbreaking digital adventures.",
         "button1": "Expert Consultancy",
         "button2": "Download Broucher",
 
@@ -74,9 +69,9 @@ const SmartContractDev = () => {
     const data2 = {
         // nftsec2
         token1: token1,
-        "small2": "TOP FEATURES",
-        "heading2": "What We Provide For Your Successful Business",
-        "paragraph2": "Cryptora's real-world expertise allows us to provide our clients with comprehensive token production tools across industry hosts. Here are the features of Smart contract development.",
+        "small2": "ABOUT NFTGame Development",
+        "heading2": "Exploring the Boundless World of NFT Game Development",
+        "paragraph2": "NFT Game Development merges blockchain and NFTs for immersive gaming experiences, rare in-game assets, and groundbreaking digital adventures, all crafted by cryptora.tech.",
 
 
     }
@@ -84,20 +79,20 @@ const SmartContractDev = () => {
 
         //  nftsec3
         "small3": "OUR SERVICES",
-        "heading3": "Smart contract development",
-        "paragraph3": "Cryptora, the premier Token Development Company, creates Tokens on the Ethereum, Tron, and Ripple frameworks for players looking for Tokens for efficient digital asset management",
+        "heading3": "NFT Game Development Services",
+        "paragraph3": "NFT Game Development Services: Transforming gaming experiences with unique NFT integration, powered by cryptora.tech.",
 
-        "cardheading1": "Ethereum Token",
-        "cardparagraph1": "The Smart contract development aid in the development of Ethereum tokens. ERC20 , ERC777, ERC721, ERC827, ERC223, and the ERC1155 are some of the Ethereum Tokens.",
+        "cardheading1": "Full-Cycle NFT Game Development",
+        "cardparagraph1": "At Cryptora.tech, we offer full-cycle NFT game development services, seamlessly blending blockchain technology with innovative game design, from conceptualization to marketplace integration.",
 
-        "cardheading2": "Tron Token",
-        "cardparagraph2": "The Tron Tokens can be created using the Token Development process. It creates DeFi tokens that execute quality of service across the Tron Blockchain network architecture.",
+        "cardheading2": "2D/3D Art & Design",
+        "cardparagraph2": "At Cryptora.tech, we pioneer captivating 2D/3D art and design services, crafting visually stunning assets and environments to elevate your project's aesthetic appeal and user experience.",
 
-        "cardheading3": "BEP Token",
-        "cardparagraph3": "The BEP20 Token Development process results in the design and creation of tokens. It uses BNB as their base currency and is compliant with the platforms that run on the Binance Smart Chain.",
+        "cardheading3": "Concept Creation",
+        "cardparagraph3": "At Cryptora.tech, we excel in conceptual creation, crafting immersive themes, storylines, and game mechanics to bring your vision to life with creativity and strategy.",
 
-        "cardheading4": "Solana Token",
-        "cardparagraph4": "Solana Token Development Company, Developcoins pioneers in token creation services on Solana and other blockchain networks with custom smart contract.",
+        "cardheading4": "Smart Contract Development",
+        "cardparagraph4": "At Cryptora.tech, we provide cutting-edge Smart Contract Development services, leveraging decentralized technology to create robust, tailored contracts that optimize and streamline your blockchain operations securely.",
 
         "cardheading5": "Polygon Token",
         "cardparagraph5": "Polygon token development company offers best-in-class token development service to create crypto tokens on Polygon blockchain network.",
@@ -140,7 +135,6 @@ const SmartContractDev = () => {
         "content6": "You cannot create more tokens than the token limit specified. This ensures that people don't create more than declared tokens.",
 
     }
-
     return (
         <>
             <Segment1 data={data1} />
@@ -153,4 +147,4 @@ const SmartContractDev = () => {
     )
 }
 
-export default SmartContractDev
+export default NftGameDev

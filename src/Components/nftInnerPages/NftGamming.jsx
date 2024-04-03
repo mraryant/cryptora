@@ -6,8 +6,18 @@ import smContractHero from "/NftGameDev/nftgamebg2.png"
 // segment 2
 import token1 from '/NftGameDev/nftseg2.png'
 
+//segment3   servce section images 
+import img1 from '/Crypto/cryptoc1.png'
+import img2 from '/Crypto/cryptoc2.png'
+import img3 from '/Crypto/cryptoc3.png'
+import img4 from '/Crypto/cryptoc4.png'
+import img5 from '/Crypto/cryptoc5.png'
+import img6 from '/Crypto/cryptoc6.png'
+
+
 import Segment1 from "../innerSegments/Segment1"
 import Segment2 from "../innerSegments/Segment2"
+import Segment3 from "../innerSegments/Segment3"
 
 const NftGamming = () => {
     const data1 = {
@@ -28,10 +38,52 @@ const NftGamming = () => {
 
 
     }
+
+    const imagesForSeg3 = {
+        img1: img1,
+        img2: img2,
+        img3: img3,
+        img4: img4,
+        img5: img5,
+        img6: img6,
+
+    };
+    const data3 = {
+
+        //  nftsec3
+        "small3": "OUR SERVICES",
+        "heading3": "NFT Game Development Services",
+        "paragraph3": "NFT Game Development Services: Transforming gaming experiences with unique NFT integration, powered by cryptora.tech.",
+
+        "cardheading1": "Full-Cycle NFT Game Development",
+        "cardparagraph1": "At Cryptora.tech, we offer full-cycle NFT game development services, seamlessly blending blockchain technology with innovative game design, from conceptualization to marketplace integration.",
+
+        "cardheading2": "2D/3D Art & Design",
+        "cardparagraph2": "At Cryptora.tech, we pioneer captivating 2D/3D art and design services, crafting visually stunning assets and environments to elevate your project's aesthetic appeal and user experience.",
+
+        "cardheading3": "Concept Creation",
+        "cardparagraph3": "At Cryptora.tech, we excel in conceptual creation, crafting immersive themes, storylines, and game mechanics to bring your vision to life with creativity and strategy.",
+
+        "cardheading4": "Smart Contract Development",
+        "cardparagraph4": "At Cryptora.tech, we provide cutting-edge Smart Contract Development services, leveraging decentralized technology to create robust, tailored contracts that optimize and streamline your blockchain operations securely.",
+
+        "cardheading5": "Polygon Token",
+        "cardparagraph5": "Polygon token development company offers best-in-class token development service to create crypto tokens on Polygon blockchain network.",
+
+        "cardheading6": "NFT Development",
+        "cardparagraph6": "NFT Smart contract development are built around usability. Our NFT token developers ensure NFT tokens are properly created with secure functionality.",
+
+    }
+
+
+
+
     return (
         <>
             <Segment1 data={data1} />
             <Segment2 data={data2} />
+            <Segment3 data={data3} images={imagesForSeg3} />
+
         </>
     )
 }

@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+
 import { useState } from 'react'
 import Logo from '/cryptora.png'
 import Button1 from './Button1'

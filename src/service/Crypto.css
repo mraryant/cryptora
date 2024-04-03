@@ -505,9 +505,9 @@
 }
 
 @media (max-width: 768px) {
-  .cryptosec1main {
-    /* background-color: #00000090; */
-  }
+  /* .cryptosec1main {
+    background-color: #00000090;
+  } */
 
   .n5container {
     max-width: 100%;
@@ -516,9 +516,9 @@
   .n5card {
     max-width: 100%;
   }
-  .n5content {
-    /* width: 100%; */
-  }
+  /* .n5content {
+    width: 100%;
+  } */
   #cryptosec3 {
     padding: 20px;
   }

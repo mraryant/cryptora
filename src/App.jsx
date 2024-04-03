@@ -31,7 +31,11 @@ import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
 import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
+
 import NftGameDev from './internalPages/nftMarket/nftGameDev';
+
+
+
 // Loading spinner component
 const Loader = () => (
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -91,7 +95,7 @@ const App = () => {
 
 
             {/* nft marckateplace */}
-            <Route path="Nft-Game-Development" element={<NftGameDev />} />
+            <Route path="NFT-Game-Development" element={<NftGameDev/>} />
 
 
 

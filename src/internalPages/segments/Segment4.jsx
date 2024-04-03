@@ -33,11 +33,11 @@ const Segment4 = (props) => {
 
 Segment4.propTypes = {
     data: PropTypes.shape({
-        token2: PropTypes.string.isrequired,
         small4: PropTypes.string.isRequired,
         heading4: PropTypes.string.isRequired,
         paragraph4: PropTypes.string.isRequired,
-    })
+        token2: PropTypes.string,
+    }).isRequired,
 }
 
 export default Segment4

@@ -14,10 +14,13 @@ import img4 from '/Crypto/cryptoc4.png'
 import img5 from '/Crypto/cryptoc5.png'
 import img6 from '/Crypto/cryptoc6.png'
 
+// segment4
+import token2 from '/NftGameDev/nftseg4.png'
 
 import Segment1 from "../innerSegments/Segment1"
 import Segment2 from "../innerSegments/Segment2"
 import Segment3 from "../innerSegments/Segment3"
+import Segment4 from "../innerSegments/Segment4"
 
 const NftGamming = () => {
     const data1 = {
@@ -75,6 +78,15 @@ const NftGamming = () => {
 
     }
 
+    const data4 = {
+        // nftsec4
+        token2: token2,
+        "small4": "FEATURES",
+        "heading4": "FEATURES OF TOKEN DEVELOPMENT",
+        "paragraph4": "We help you launch your own NFT marketplace and attract the growing community of NFT users. NFT marketplaces built by us are feature-rich, decentralized, and facilitate tokenization of all kinds of assets, including artwork, gaming cards, software licenses, digital collectibles, and real-world assets.",
+
+    }
+
 
 
 
@@ -83,6 +95,7 @@ const NftGamming = () => {
             <Segment1 data={data1} />
             <Segment2 data={data2} />
             <Segment3 data={data3} images={imagesForSeg3} />
+            <Segment4 data={data4} />
 
         </>
     )

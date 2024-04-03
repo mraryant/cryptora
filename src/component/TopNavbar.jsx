@@ -1,4 +1,4 @@
-
+import { useEffect } from 'react';
 import { useState } from 'react'
 import Logo from '/cryptora.png'
 import Button1 from './Button1'
@@ -27,6 +27,13 @@ const TopNavbar = () => {
 
 
   const handleRefresh = () => {
+    // Scroll to the top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // Optional: Smooth scrolling animation
+    });
+
+    // Trigger the refresh by updating the refresh key
     setRefreshKey((prevKey) => prevKey + 1);
   };
 
@@ -58,7 +65,7 @@ const TopNavbar = () => {
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
 
                       <Link onClick={handleRefresh} to="/token-development">Token/Coin development</Link>
-                      <Link onClick={handleRefresh} to="/SmartContractDev">Smart Contract Development</Link>
+                      <Link onClick={handleRefresh} to="/Smart-Contract-development">Smart Contract Development</Link>
                       <Link onClick={handleRefresh} to="/TokenomicsDev">Tokenomics Design</Link>
                       <Link onClick={handleRefresh} to="/token-development">White Paper Design</Link>
                       <Link onClick={handleRefresh} to="/token-development">Custom Smart Contract</Link>

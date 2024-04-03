@@ -3,7 +3,7 @@
 import "../../service/Crypto.css"
 
 // hero segment 1
-import smContractHero from "../../../public/NftSportDev/nftsportbg.png"
+import smContractHero from "/NftSportDev/nftsportbg.png"
 // segment 2
 import token1 from '/NftGameDev/nftseg2.png'
 
@@ -31,6 +31,7 @@ import Segment2 from "../innerSegments/Segment2"
 import Segment3 from "../innerSegments/Segment3"
 import Segment4 from "../innerSegments/Segment4"
 import Segment5 from "../innerSegments/Segment5"
+import Footer from "../../component/Footer"
 
 const NftSport = () => {
     const data1 = {
@@ -139,7 +140,7 @@ const NftSport = () => {
             <Segment3 data={data3} images={imagesForSeg3} />
             <Segment4 data={data4} />
             <Segment5 data={data5} images={imagesForSeg5} />
-
+            <Footer />
         </>
     )
 }

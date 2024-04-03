@@ -30,6 +30,7 @@ import Segment2 from "../innerSegments/Segment2"
 import Segment3 from "../innerSegments/Segment3"
 import Segment4 from "../innerSegments/Segment4"
 import Segment5 from "../innerSegments/Segment5"
+import Footer from "../../component/Footer"
 
 const NftGamming = () => {
     const data1 = {
@@ -140,7 +141,7 @@ const NftGamming = () => {
             <Segment3 data={data3} images={imagesForSeg3} />
             <Segment4 data={data4} />
             <Segment5 data={data5} images={imagesForSeg5} />
-
+            <Footer/>
         </>
     )
 }

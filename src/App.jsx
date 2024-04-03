@@ -31,6 +31,7 @@ import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
 import NftGamming from './Components/nftInnerPages/NftGamming';
 import NftSport from './Components/nftInnerPages/NftSport';
+import SmartContractDev from './Components/coinDevInner/SmartContractDev';
 // import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 // import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
 // import NftGameDev from './internalPages/nftMarket/nftGameDev';
@@ -78,6 +79,7 @@ const App = () => {
             <Route path="services" element={<Services />} />
 
             <Route path="token-development" element={<Crypto />} />
+            <Route path="Smart-Contract-development" element={<SmartContractDev/>} />
 
 
             <Route path="nft-marketplace-development" element={<NFTDev />} />

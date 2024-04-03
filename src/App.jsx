@@ -30,6 +30,7 @@ import logo from "./assets/logo/favicon.png"
 import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
 import NftGamming from './Components/nftInnerPages/NftGamming';
+import NftSport from './Components/nftInnerPages/NftSport';
 // import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 // import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
 // import NftGameDev from './internalPages/nftMarket/nftGameDev';
@@ -77,11 +78,12 @@ const App = () => {
             <Route path="services" element={<Services />} />
 
             <Route path="token-development" element={<Crypto />} />
-            
+
 
             <Route path="nft-marketplace-development" element={<NFTDev />} />
             <Route path="Nft-Game-Development" element={<NftGamming />} />
-            
+            <Route path="Nft-Sport-Development" element={<NftSport />} />
+
 
             <Route path="ico-marketing" element={<ICO />} />
             <Route path="blockchain-consulting-service" element={<Blockchain />} />
@@ -100,7 +102,7 @@ const App = () => {
 
 
             {/* nft marckateplace */}
-            
+
 
 
 

@@ -82,7 +82,7 @@ const TopNavbar = () => {
                   <div className="navdiv">
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
                       <Link onClick={handleRefresh} to="/nft-marketplace-development">NFT Marketplace Development</Link>
-                      <Link onClick={handleRefresh} to="/NFT_Game_Development">NFT Game Development</Link>
+                      <Link onClick={handleRefresh} to="/Nft-Game-Development">NFT Game Development</Link>
                       <Link onClick={handleRefresh} to="/nft-marketplace-development">NFT Sport Platform</Link>
                       <Link onClick={handleRefresh} to="/nft-marketplace-development">NFT Buy and sell Platform</Link>
                     </div>

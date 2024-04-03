@@ -29,6 +29,7 @@ const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
 import logo from "./assets/logo/favicon.png"
 import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
+import NftGamming from './Components/nftInnerPages/NftGamming';
 // import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 // import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
 // import NftGameDev from './internalPages/nftMarket/nftGameDev';
@@ -79,6 +80,7 @@ const App = () => {
             
 
             <Route path="nft-marketplace-development" element={<NFTDev />} />
+            <Route path="Nft-Game-Development" element={<NftGamming />} />
             
 
             <Route path="ico-marketing" element={<ICO />} />

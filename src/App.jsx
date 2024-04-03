@@ -32,6 +32,7 @@ import PRprice from './pages/PRprice';
 import NftGamming from './Components/nftInnerPages/NftGamming';
 import NftSport from './Components/nftInnerPages/NftSport';
 import SmartContractDev from './Components/coinDevInner/SmartContractDev';
+import NftBuyAndSell from './Components/nftInnerPages/NftBuyAndSell';
 // import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 // import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
 // import NftGameDev from './internalPages/nftMarket/nftGameDev';
@@ -85,6 +86,7 @@ const App = () => {
             <Route path="nft-marketplace-development" element={<NFTDev />} />
             <Route path="Nft-Game-Development" element={<NftGamming />} />
             <Route path="Nft-Sport-Development" element={<NftSport />} />
+            <Route path="Nft-Buy-And-Sell-Platform" element={<NftBuyAndSell />} />
 
 
             <Route path="ico-marketing" element={<ICO />} />

@@ -1,9 +1,10 @@
+
 import "../../service/Crypto.css"
 
 // hero segment 1
-import smContractHero from "/smartContractDev/smContract-hero.png"
+import smContractHero from "/NftBuy&Sell/nftB&sBG.png"
 // segment 2
-import token1 from '/smartContractDev/smContract-seg2.jpg'
+import token1 from '/NftBuy&Sell/nftB&sSeg2.png'
 
 //segment3   servce section images 
 import img1 from '/Crypto/cryptoc1.png'
@@ -14,7 +15,7 @@ import img5 from '/Crypto/cryptoc5.png'
 import img6 from '/Crypto/cryptoc6.png'
 
 // segment4
-import token2 from '/smartContractDev/seg4.jpg'
+import token2 from '/NftBuy&Sell/nftB&sSeg4.png'
 
 //segment 5  features section images  
 import emg1 from "/Crypto/crypto1.png"
@@ -30,12 +31,11 @@ import Segment3 from "../innerSegments/Segment3"
 import Segment4 from "../innerSegments/Segment4"
 import Segment5 from "../innerSegments/Segment5"
 import Footer from "../../component/Footer"
-
-const SmartContractDev = () => {
+const NftBuyAndSell = () => {
     const data1 = {
         // segment1
         smContractHero: smContractHero,
-        heading1: "Smart Contract Development  ",
+        heading1: "NFT Buy and Sell Service  ",
         para1:
             "Experience gaming's future with cryptora.tech: premier NFT Game Development Company. Uniting blockchain tech, NFTs, rare in-game assets, and immersive gameplay for groundbreaking digital adventures.",
         button1: "Expert Consultancy",
@@ -157,4 +157,4 @@ const SmartContractDev = () => {
     )
 }
 
-export default SmartContractDev
+export default NftBuyAndSell

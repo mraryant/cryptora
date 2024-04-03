@@ -91,7 +91,7 @@ const TopNavbar = () => {
                       <Link onClick={handleRefresh} to="/nft-marketplace-development">NFT Marketplace Development</Link>
                       <Link onClick={handleRefresh} to="/Nft-Game-Development">NFT Game Development</Link>
                       <Link onClick={handleRefresh} to="/Nft-Sport-Development">NFT Sport Platform</Link>
-                      <Link onClick={handleRefresh} to="/nft-marketplace-development">NFT Buy and sell Platform</Link>
+                      <Link onClick={handleRefresh} to="/Nft-Buy-And-Sell-Platform">NFT Buy and sell Platform</Link>
                     </div>
                   </div>
                 </div>

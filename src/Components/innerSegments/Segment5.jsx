@@ -1,32 +1,39 @@
 import PropTypes from "prop-types"
 
 const Segment5 = (props) => {
-    const { data } = props
-    const { images } = props
+    const { data, images } = props
+    
     return (
         <>
             <div id="s5main" className='px-3   '>
-                <p className='s5small'>{data.small5} </p>
-                <p className='cryptoheading'>{data.heading5}</p>
+                <p className='s5small'>{data[0].small} </p>
+                <p className='cryptoheading'>{data[0].heading}</p>
                 <p className='cryptoparagraph'>
-                    {data.paragraph5}
+                    {data[0].paragraph}
                 </p>
             </div>
             <div className=" d-flex justify-content-center " >
 
                 <div id='cryptosec5' className="">
-                    <section className="n5container">
-                        <div className="n5card">
-                            <div className="n5content">
-                                <p className="n5logo"><img src={images.emg1} alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
-                                <div className="n5h6">{data.title1}</div>
-                                <div className="n5hover_content">
-                                    <p> {data.content1}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="n5container">
+                    {
+                        data.map((item, index) => {
+                            return (
+                                <section key={index} className="n5container">
+                                    <div className="n5card">
+                                        <div className="n5content">
+                                            <p className="n5logo"><img src={images[index]} alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
+                                            <div className="n5h6">{item.title}</div>
+                                            <div className="n5hover_content">
+                                                <p> {item.content}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            )
+                        })
+                        }
+                    
+                    {/* <section className="n5container">
                         <div className="n5card">
                             <div className="n5content">
                                 <p className="n5logo"><img src={images.emg2} alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
@@ -77,7 +84,7 @@ const Segment5 = (props) => {
                                     <p>{data.content6}</p>      </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
 
 
@@ -89,31 +96,16 @@ const Segment5 = (props) => {
 }
 
 Segment5.propTypes = {
-    data: PropTypes.shape({
-        small5: PropTypes.string.isRequired,
-        heading5: PropTypes.string.isRequired,
-        paragraph5: PropTypes.string.isRequired,
-        title1: PropTypes.string.isRequired,
-        content1: PropTypes.string.isRequired,
-        title2: PropTypes.string.isRequired,
-        content2: PropTypes.string.isRequired,
-        title3: PropTypes.string.isRequired,
-        content3: PropTypes.string.isRequired,
-        title4: PropTypes.string.isRequired,
-        content4: PropTypes.string.isRequired,
-        title5: PropTypes.string.isRequired,
-        content5: PropTypes.string.isRequired,
-        title6: PropTypes.string.isRequired,
-        content6: PropTypes.string.isRequired,
-    }),
-    images: PropTypes.shape({
-        emg1: PropTypes.string.isRequired,
-        emg2: PropTypes.string.isRequired,
-        emg3: PropTypes.string.isRequired,
-        emg4: PropTypes.string.isRequired,
-        emg5: PropTypes.string.isRequired,
-        emg6: PropTypes.string.isRequired
-    }),
+    data: PropTypes.arrayOf(
+        PropTypes.shape({
+            small: PropTypes.string.isRequired,
+            heading: PropTypes.string.isRequired,
+            paragraph: PropTypes.string.isRequired,
+            title: PropTypes.string.isRequired,
+            content: PropTypes.string.isRequired
+        })
+    ).isRequired,
+    images: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
 }
 
 export default Segment5

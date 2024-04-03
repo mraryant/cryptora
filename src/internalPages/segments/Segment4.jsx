@@ -36,7 +36,7 @@ Segment4.propTypes = {
         small4: PropTypes.string.isRequired,
         heading4: PropTypes.string.isRequired,
         paragraph4: PropTypes.string.isRequired,
-        token2: PropTypes.string,
+        token2: PropTypes.string.isRequired,
     }).isRequired,
 }
 

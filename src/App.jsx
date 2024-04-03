@@ -31,8 +31,8 @@ import { easeInOut, motion } from "framer-motion"
 import PRprice from './pages/PRprice';
 import SmartContractDev from './internalPages/coinDev/SmartContractDev';
 import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
-
 import NftGameDev from './internalPages/nftMarket/nftGameDev';
+
 
 
 
@@ -74,8 +74,14 @@ const App = () => {
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" element={<Home />} />
             <Route path="services" element={<Services />} />
-            <Route path="nft-marketplace-development" element={<NFTDev />} />
+
             <Route path="token-development" element={<Crypto />} />
+            <Route path="SmartContractDev" element={<SmartContractDev />} />
+            <Route path="TokenomicsDev" element={<TokenomicsDev />} />
+
+            <Route path="nft-marketplace-development" element={<NFTDev />} />
+            <Route path="NFT_Game_Development" element={<NftGameDev />} />
+
             <Route path="ico-marketing" element={<ICO />} />
             <Route path="blockchain-consulting-service" element={<Blockchain />} />
             <Route path="decentralized-exchange-development" element={<Decentralized />} />
@@ -90,12 +96,10 @@ const App = () => {
             <Route path="TermCondition" element={<TermCondition />} />
             <Route path="PR" element={<PR />} />
             <Route path="PRprice" element={<PRprice />} />
-            <Route path="SmartContractDev" element={<SmartContractDev />} />
-            <Route path="TokenomicsDev" element={<TokenomicsDev />} />
 
 
             {/* nft marckateplace */}
-            <Route path="NFT-Game-Development" element={<NftGameDev/>} />
+            
 
 
 

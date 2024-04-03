@@ -13,6 +13,7 @@ import Footer from "../../component/Footer"
 // hero segment 1
 import smContractHero from "/NftGameDev/nftgamebg2.png"
 
+
 // segment 2
 import token1 from '/NftGameDev/nftseg2.png'
 

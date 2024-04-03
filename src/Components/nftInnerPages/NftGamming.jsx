@@ -17,10 +17,19 @@ import img6 from '/Crypto/cryptoc6.png'
 // segment4
 import token2 from '/NftGameDev/nftseg4.png'
 
+//segment 5  features section images  
+import emg1 from "/Crypto/crypto1.png"
+import emg2 from "/Crypto/crypto2.png"
+import emg3 from "/Crypto/crypto41.png"
+import emg4 from "/Crypto/crypto4.png"
+import emg5 from "/Crypto/crypto5.png"
+import emg6 from "/Crypto/crypto6.png"
+
 import Segment1 from "../innerSegments/Segment1"
 import Segment2 from "../innerSegments/Segment2"
 import Segment3 from "../innerSegments/Segment3"
 import Segment4 from "../innerSegments/Segment4"
+import Segment5 from "../innerSegments/Segment5"
 
 const NftGamming = () => {
     const data1 = {
@@ -88,6 +97,40 @@ const NftGamming = () => {
     }
 
 
+    const imagesForSeg5 = {
+        emg1: emg1,
+        emg2: emg2,
+        emg3: emg3,
+        emg4: emg4,
+        emg5: emg5,
+        emg6: emg6,
+
+    };
+    const data5 = {
+        //nftsec5
+        "small5": "Features",
+        "heading5": "Features of Smart Contract Development",
+        "paragraph5": "Your Token will comply entirely with the concept of ERC20 and will be compatible worldwide with each ERC20 wallet. It has name, symbol, and decimals.",
+
+        "title1": "Burnable",
+        "content1": "You will be able to burn your Token. It means that by burning any of the tokens you may opt to reduce the circulating stock.",
+
+        "title2": "Burnable",
+        "content2": "You will be able to burn your Token. It means that by burning any of the tokens you may opt to reduce the circulating stock.",
+
+        "title3": "Mintable",
+        "content3": "Via minting, you will produce tokens. Only the owner of the token will mint. If you don't want to produce any more tokens, you can also disable minting.",
+
+        "title4": "Pausable",
+        "content4": "You can delay your token movement. It is useful to prohibit trading until all token transactions have been unfrozen.",
+
+        "title5": "Access to ownership",
+        "content5": "You get complete ownership over your token. The token owners also get to mint new tokens and manage them.",
+
+        "title6": "Capped",
+        "content6": "You cannot create more tokens than the token limit specified. This ensures that people don't create more than declared tokens.",
+
+    }
 
 
     return (
@@ -96,6 +139,7 @@ const NftGamming = () => {
             <Segment2 data={data2} />
             <Segment3 data={data3} images={imagesForSeg3} />
             <Segment4 data={data4} />
+            <Segment5 data={data5} images={imagesForSeg5} />
 
         </>
     )

@@ -9,7 +9,7 @@ const Segment2 = (props) => {
             <div id='cryptosec2' className="container">
                 <div id="cryptoright">
                     <div className='d-flex justify-content-center justify-content-md-start' >
-                        <img src={data.token1} alt="I am Just comming ^_^" style={{ width: "80%", height: "100%", }} />
+                        <img loading="lazy" src={data.token1} alt="I am Just comming ^_^" style={{ width: "80%", height: "100%", }} />
                     </div>
                 </div>
                 <div id="cryptoleft">

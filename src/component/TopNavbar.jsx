@@ -66,13 +66,12 @@ const TopNavbar = () => {
 
                       <Link onClick={handleRefresh} to="/token-development">Token/Coin development</Link>
                       <Link onClick={handleRefresh} to="/Smart-Contract-development">Smart Contract Development</Link>
-                      <Link onClick={handleRefresh} to="/TokenomicsDev">Tokenomics Design</Link>
-                      <Link onClick={handleRefresh} to="/token-development">White Paper Design</Link>
-                      <Link onClick={handleRefresh} to="/token-development">Custom Smart Contract</Link>
-                      <Link onClick={handleRefresh} to="/token-development">Meme Token Development</Link>
-                      <Link onClick={handleRefresh} to="/token-development">Stable Coin Development</Link>
-                      <Link onClick={handleRefresh} to="/token-development">ICO/IEO/STO coin Development</Link>
-                      <Link onClick={handleRefresh} to="/token-development">MLM Dex Contract Development</Link>
+                      <Link onClick={handleRefresh} to="/Tokenomics-Design">Tokenomics Design</Link>
+                      <Link onClick={handleRefresh} to="/White-Paper-Design">White Paper Design</Link>
+                      <Link onClick={handleRefresh} to="/Meme-Token-Development">Meme Token Development</Link>
+                      <Link onClick={handleRefresh} to="/Stable-Coin-Development">Stable Coin Development</Link>
+                      <Link onClick={handleRefresh} to="/ICO-IEO-STO-coin-Development">ICO/IEO/STO coin Development</Link>
+                      <Link onClick={handleRefresh} to="/MLM-DEX-Contract-Development">MLM Dex Contract Development</Link>
                     </div>
                   </div>
                 </div>

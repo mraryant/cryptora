@@ -21,7 +21,7 @@ const Segment4 = (props) => {
                 </div>
                 <div id="cryptoright">
                     {/* <div> */}
-                    <img src={data.token2} style={{ maxWidth: "90%" }} alt="I am Just comming ^_^" />
+                    <img loading="lazy" src={data.token2} style={{ maxWidth: "90%" }} alt="I am Just comming ^_^" />
                     {/* </div> */}
                 </div>
             </div>

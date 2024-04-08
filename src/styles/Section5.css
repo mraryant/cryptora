@@ -25,11 +25,9 @@
 .s5heading {
   font-size: 45px;
   font-weight: 900;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: 1px;
 }
-
-
 
 .showcase {
   width: 100%;
@@ -62,7 +60,6 @@
 }
 
 .s5left {
-
   padding: 40px;
   width: 47%;
 }
@@ -82,8 +79,13 @@
   /* background: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(0, 0, 0, 0.006127450980392135) 0%, rgba(0, 0, 0, 1) 74%); */
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 29%, rgba(0, 0, 0, 0.006127450980392135) 52%, rgba(0, 0, 0, 1) 100%);
-
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 29%,
+    rgba(0, 0, 0, 0.006127450980392135) 52%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .rg2 {
@@ -94,8 +96,13 @@
   /* background: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(0, 0, 0, 0.006127450980392135) 0%, rgba(0, 0, 0, 1) 74%); */
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 29%, rgba(0, 0, 0, 0.006127450980392135) 52%, rgba(0, 0, 0, 1) 100%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 29%,
+    rgba(0, 0, 0, 0.006127450980392135) 52%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .s5para {
@@ -108,19 +115,18 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
-
 }
 
 .title {
-  font-family: 'Urbanist', sans-serif;
-  color: #FFF;
+  font-family: "Urbanist", sans-serif;
+  color: #fff;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
 
   letter-spacing: 1px;
-  line-height: 2
+  line-height: 2;
 }
 
 .title p {
@@ -142,8 +148,8 @@
   padding: 7px 10px;
   background-color: #122;
   border-radius: 3px;
-  color: #FFF;
-  transition: .35s ease-in-out;
+  color: #fff;
+  transition: 0.35s ease-in-out;
   position: absolute;
   left: 15px;
   bottom: 15px;
@@ -151,10 +157,9 @@
 }
 
 .white-mode:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #122;
 }
-
 
 /* 
 .btn-shine{
@@ -196,13 +201,20 @@ opacity: 0.5;
   }
   } */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .s5main {
     flex-direction: column-reverse;
     width: 100%;
     height: 100%;
   }
 
+  .contentdiv {
+    flex-direction: column;
+    gap: 0px;
+    ul {
+      margin-bottom: 0px;
+    }
+  }
   .s6main {
     flex-direction: column-reverse;
     width: 100%;
@@ -224,5 +236,4 @@ opacity: 0.5;
   .s5para {
     font-size: 14px;
   }
-
 }

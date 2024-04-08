@@ -1,9 +1,9 @@
 import "../../service/Crypto.css"
 
 // hero segment 1
-import smContractHero from "/smartContractDev/smContract-hero.png"
+import smContractHero from "/CoinDev-main/smartContractDev/smContract-hero.png"
 // segment 2
-import token1 from '/smartContractDev/smContract-seg2.jpg'
+import token1 from '/CoinDev-main/smartContractDev/smContract-seg2.jpg'
 
 //segment3   servce section images 
 import img1 from '/Crypto/cryptoc1.png'
@@ -14,7 +14,7 @@ import img5 from '/Crypto/cryptoc5.png'
 import img6 from '/Crypto/cryptoc6.png'
 
 // segment4
-import token2 from '/smartContractDev/seg4.jpg'
+import token2 from '/CoinDev-main/smartContractDev/seg4.jpg'
 
 //segment 5  features section images  
 import emg1 from "/Crypto/crypto1.png"

@@ -21,7 +21,9 @@ const Segment5 = (props) => {
                                 <section key={index} className="n5container">
                                     <div className="n5card">
                                         <div className="n5content">
-                                            <p className="n5logo"><img src={images[index]} alt="I am Just comming ^_^" style={{ width: 50 }} /></p>
+                                            <div className="n5logo">
+                                                <img src={images[index]} alt="I am Just comming ^_^" style={{ width: 50 }} loading="lazy" />
+                                            </div>
                                             <div className="n5h6">{item.title}</div>
                                             <div className="n5hover_content">
                                                 <p> {item.content}</p>

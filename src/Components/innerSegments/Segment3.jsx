@@ -20,7 +20,7 @@ const Segment3 = (props) => {
                 {data.map((item, index) => (
                     <div key={index} className="cryptocard">
                         <div className="cryptocontent">
-                            <img src={images[index]} style={{ width: 50, height: 50 }} />
+                            <img src={images[index]} style={{ width: 50, height: 50 }} loading="lazy" />
                             <p className="heading">{item.cardheading}
                             </p>
                             <p className="para">{item.cardparagraph}</p>

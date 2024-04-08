@@ -78,11 +78,13 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  font-weight: bold;
 }
 
 .nftdropdown-content a:hover {
-  background: linear-gradient(to right, #f32170,
-      #ff6b08, #cf23cf, #eedd44);
+ 
+  background: linear-gradient(to right, #ee4183,
+      #ff8331, #ff38ff, #faea57);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

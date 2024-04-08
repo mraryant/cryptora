@@ -1,12 +1,10 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
+import { easeInOut, motion } from "framer-motion"
 
-import Home from './pages/Home';
-// import chat from './assets/chat.gif';
+import logo from "./assets/logo/favicon.png"
 import Microservice from './service/Microservice';
-import ContactUs from './pages/ContactUs';
-import Aboutus from './pages/Aboutus';
 import PopupX from './pages/PopupX';
 import PopupX2 from './pages/PopupX2';
 import Landing from './service/Landing';
@@ -26,16 +24,22 @@ const Crypto = lazy(() => import('./service/Crypto'));
 const Decentralized = lazy(() => import('./service/Decentralized'));
 const CryptoWallet = lazy(() => import('./service/CryptoWallet'));
 const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
-import logo from "./assets/logo/favicon.png"
-import { easeInOut, motion } from "framer-motion"
-import PRprice from './pages/PRprice';
-import NftGamming from './Components/nftInnerPages/NftGamming';
-import NftSport from './Components/nftInnerPages/NftSport';
-import SmartContractDev from './Components/coinDevInner/SmartContractDev';
-import NftBuyAndSell from './Components/nftInnerPages/NftBuyAndSell';
-// import SmartContractDev from './internalPages/coinDev/SmartContractDev';
-// import TokenomicsDev from './internalPages/coinDev/TokenomicsDev';
-// import NftGameDev from './internalPages/nftMarket/nftGameDev';
+const ContactUs = lazy(() => import('./pages/ContactUs'))  ;
+import Home from './pages/Home';
+const Aboutus = lazy(() => import('./pages/Aboutus'));
+const PRprice = lazy(() => import('./pages/PRprice'));
+const NftGamming = lazy(() => import('./Components/nftInnerPages/NftGamming'));
+const NftSport = lazy(() => import('./Components/nftInnerPages/NftSport'));
+const SmartContractDev = lazy(() => import('./Components/coinDevInner/SmartContractDev'));
+const NftBuyAndSell = lazy(() => import('./Components/nftInnerPages/NftBuyAndSell'));
+const TokenomicsDesign = lazy(() => import('./Components/coinDevInner/TokenomicsDesign'));
+const WhitePaperDesign = lazy(() => import('./Components/coinDevInner/WhitePaperDesign'));
+const MemeTokenDev = lazy(() => import('./Components/coinDevInner/MemeTokenDev'));
+const StableCoinDev = lazy(() => import('./Components/coinDevInner/StableCoinDev'));
+const IcoIeoStoCoinDev = lazy(() => import('./Components/coinDevInner/IcoIeoStoCoinDev'));
+const MlmDexContractDev = lazy(() => import('./Components/coinDevInner/MlmDexContractDev'));
+
+
 
 
 
@@ -63,6 +67,7 @@ const App = () => {
 
     return () => clearTimeout(delay); // Cleanup the timeout when the component unmounts
   }, []);
+  
   return (
     <>
 
@@ -72,6 +77,8 @@ const App = () => {
         <Headroom style={{ zIndex: 99 }}>
           <TopNavbar />
         </Headroom>
+
+
         <Suspense fallback={isLoading ? <Loader /> : null} >
 
           <Routes>
@@ -81,6 +88,12 @@ const App = () => {
 
             <Route path="token-development" element={<Crypto />} />
             <Route path="Smart-Contract-development" element={<SmartContractDev/>} />
+            <Route path="Tokenomics-Design" element={<TokenomicsDesign/> } />
+            <Route path="White-Paper-Design" element={<WhitePaperDesign/> } />
+            <Route path="Meme-Token-Development" element={<MemeTokenDev/> } />
+            <Route path="Stable-Coin-Development" element={<StableCoinDev/> } />
+            <Route path="ICO-IEO-STO-coin-Development" element={<IcoIeoStoCoinDev/> } />
+            <Route path="MLM-DEX-Contract-Development" element={<MlmDexContractDev/> } />
 
 
             <Route path="nft-marketplace-development" element={<NFTDev />} />
@@ -107,11 +120,9 @@ const App = () => {
 
             {/* nft marckateplace */}
 
-
-
-
           </Routes>
         </Suspense>
+
       </BrowserRouter>
     </>
   );

@@ -66,45 +66,50 @@ const Section6 = () => {
     <>
 
       <div className="s7main ">
-        <div className='overlay01'></div>
-        <div className="s6overlay"></div>
+        {/* <div className='overlay01'></div> */}
+        {/* <div className="s6overlay"></div> */}
         <div className="t-area">
           <p className='s7para1'> Empowering Innovation Through Our Cutting-Edge Tech Stack</p>
-
+        </div>
+        <div className=" ">
           <div className="conta">
-            <div id="contaniner">
+            <div id=" tabs-main " className=' flex-container  d-flex flex-column flex-md-row gap-5 z-2 ' >
 
-              <div id="tabs">
-                <input type="radio" name="tabs" id="home-ch"
-                  onClick={() => handleSectionChange('home')}
-                />
-                <label htmlFor="home-ch" style={{ background: activeSection === 'home' ? '#7B61FF' : 'none' }} id="home-lb"  ><div>  Framework</div></label>
+              <div className='d-flex justify-content-center text-center ' >
 
-                <input type="radio" name="tabs" id="blog-ch"
-                  onClick={() => handleSectionChange('blog')} />
 
-                <label htmlFor="blog-ch" style={{ background: activeSection === 'blog' ? '#7B61FF' : 'none' }} id="blog-lb"><div>  Frontend/Backend</div></label>
+                <div id="tabs" className='  ' >
+                  <input type="radio" name="tabs" id="home-ch"
+                    onClick={() => handleSectionChange('home')}
+                  />
+                  <label htmlFor="home-ch" style={{ background: activeSection === 'home' ? '#7B61FF' : 'none' }} id="home-lb"  ><div>  Framework</div></label>
 
-                <input type="radio" name="tabs" id="code-ch"
-                  onClick={() => handleSectionChange('code')} />
+                  <input type="radio" name="tabs" id="blog-ch"
+                    onClick={() => handleSectionChange('blog')} />
 
-                <label htmlFor="code-ch" style={{ background: activeSection === 'code' ? '#7B61FF' : 'none' }} id="code-lb"><div>  Tools</div></label>
+                  <label htmlFor="blog-ch" style={{ background: activeSection === 'blog' ? '#7B61FF' : 'none' }} id="blog-lb"><div>  Frontend/Backend</div></label>
 
-                <input type="radio" name="tabs" id="project-ch"
-                  onClick={() => handleSectionChange('project')} />
+                  <input type="radio" name="tabs" id="code-ch"
+                    onClick={() => handleSectionChange('code')} />
 
-                <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Language</div></label>
+                  <label htmlFor="code-ch" style={{ background: activeSection === 'code' ? '#7B61FF' : 'none' }} id="code-lb"><div>  Tools</div></label>
 
-                <input type="radio" name="tabs" id="DB-ch"
-                  onClick={() => handleSectionChange('DB')} />
+                  <input type="radio" name="tabs" id="project-ch"
+                    onClick={() => handleSectionChange('project')} />
 
-                <label htmlFor="DB-ch" style={{ background: activeSection === 'DB' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Database</div></label>
+                  <label htmlFor="project-ch" style={{ background: activeSection === 'project' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Language</div></label>
 
-                <input type="radio" name="tabs" id="blockchain-ch"
-                  onClick={() => handleSectionChange('blockchain')} />
+                  <input type="radio" name="tabs" id="DB-ch"
+                    onClick={() => handleSectionChange('DB')} />
 
-                <label htmlFor="blockchain-ch" style={{ background: activeSection === 'blockchain' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Blockchain</div></label>
+                  <label htmlFor="DB-ch" style={{ background: activeSection === 'DB' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Database</div></label>
 
+                  <input type="radio" name="tabs" id="blockchain-ch"
+                    onClick={() => handleSectionChange('blockchain')} />
+
+                  <label htmlFor="blockchain-ch" style={{ background: activeSection === 'blockchain' ? '#7B61FF' : 'none' }} id="project-lb"><div>  Blockchain</div></label>
+
+                </div>
               </div>
 
               <div id="text">
@@ -360,6 +365,9 @@ const Section6 = () => {
 
       </div>
 
+
+
+      {/* pdf section */}
       <div id="pdf-cards">
         <a target='blank' id='card' href={pdf1}>
           <h5 className="card-text">Pitch Desk</h5>

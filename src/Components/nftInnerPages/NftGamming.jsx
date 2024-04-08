@@ -12,6 +12,9 @@ import img3 from "/Crypto/cryptoc3.png";
 import img4 from "/Crypto/cryptoc4.png";
 import img5 from "/Crypto/cryptoc5.png";
 import img6 from "/Crypto/cryptoc6.png";
+import img7 from "/Crypto/cryptoc4.png";
+import img8 from "/Crypto/cryptoc5.png";
+import img9 from "/Crypto/cryptoc6.png";
 
 // segment4
 import token2 from "/NftGameDev/nftseg4.png";
@@ -34,7 +37,7 @@ import Footer from "../../component/Footer";
 const NftGamming = () => {
   const data1 = {
     // segment1
-    smContractHero: smContractHero,
+    smContractHero: smContractHero, //img
     heading1: "NFT Game Development  ",
     para1:
       "Experience gaming's future with cryptora.tech: premier NFT Game Development Company. Uniting blockchain tech, NFTs, rare in-game assets, and immersive gameplay for groundbreaking digital adventures.",
@@ -50,7 +53,7 @@ const NftGamming = () => {
       "NFT Game Development merges blockchain and NFTs for immersive gaming experiences, rare in-game assets, and groundbreaking digital adventures, all crafted by cryptora.tech.",
   };
 
-  const imagesForSeg3 = [img1, img2, img3, img4, img5, img6];
+  const imagesForSeg3 = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
   const data3 = [
     {
       small: "OUR SERVICES",
@@ -87,15 +90,30 @@ const NftGamming = () => {
       cardparagraph:
         "Cryptora.tech pioneers Crypto Breeding, a revolutionary concept in the blockchain ecosystem. Our platform enables the creation and breeding of unique digital assets, fostering a vibrant ecosystem of NFTs and decentralized collectibles.",
     },
+    {
+      cardheading: "Web3 Game Development",
+      cardparagraph:
+        "At Cryptora.tech, we lead Web3 Game Development, merging blockchain technology with immersive gameplay to empower players with true asset ownership. Elevate your gaming with us.",
+    },
+    {
+      cardheading: "NFT Metaverse Game Development",
+      cardparagraph:
+        "At Cryptora.tech, we pioneer NFT Metaverse Game Development, merging blockchain, NFTs, and immersive gameplay to redefine gaming landscapes, captivating audiences with groundbreaking experiences.",
+    },
+    {
+      cardheading: "Support & Maintenance ",
+      cardparagraph:
+        "At Cryptora.tech, our Support & Maintenance services ensure sustained performance and security of your blockchain solutions, with proactive monitoring, swift issue resolution, and continuous improvement.",
+    },
   ];
 
   const data4 = {
     // nftsec4
     token2: token2,
-    small4: "FEATURES",
-    heading4: "FEATURES OF TOKEN DEVELOPMENT",
+    small4: "Solutions",
+    heading4: "Unlocking the Future: NFT Game Development Solutions",
     paragraph4:
-      "We help you launch your own NFT marketplace and attract the growing community of NFT users. NFT marketplaces built by us are feature-rich, decentralized, and facilitate tokenization of all kinds of assets, including artwork, gaming cards, software licenses, digital collectibles, and real-world assets.",
+      "Our NFT game development service pioneers the integration of Non- Fungible Tokens (NFTs) to craft immersive gaming experiences.With meticulous design and cutting - edge development, we empower game developers to seamlessly incorporate NFTs, enabling players to own and trade unique in -game assets.Join us as we redefine digital ownership and decentralized economies within gaming communities.",
   };
 
   const imagesForSeg5 = [emg1, emg2, emg3, emg4, emg5, emg6];
@@ -104,43 +122,43 @@ const NftGamming = () => {
 
     {
       small: "Features",
-      heading: "Features of Smart Contract Development",
+      heading: "Features of NFT Game Development",
       paragraph:
-        "Your Token will comply entirely with the concept of ERC20 and will be compatible worldwide with each ERC20 wallet. It has name, symbol, and decimals.",
+        "NFT Game Development at cryptora.tech includes immersive gameplay, rare in-game assets, blockchain integration, and groundbreaking digital experiences.",
 
-      title: "Burnable",
+      title: "True Ownership",
       content:
-        "You will be able to burn your Token. It means that by burning any of the tokens you may opt to reduce the circulating stock.",
+        "NFTs grant true ownership of in-game assets, empowering players with control and transferability beyond game confines.",
     },
 
     {
-      title: "Burnable",
+      title: "Scarcity and Rarity",
       content:
-        "You will be able to burn your Token. It means that by burning any of the tokens you may opt to reduce the circulating stock.",
+        "leverage NFTs with unique attributes, limited editions, and rare characteristics to create scarcity, driving demand and value for in-game collectibles.",
     },
 
     {
-      title: "Mintable",
+      title: "Interoperability",
       content:
-        "Via minting, you will produce tokens. Only the owner of the token will mint. If you don't want to produce any more tokens, you can also disable minting.",
+        "NFTs offer interoperability across games/platforms, allowing players to utilize owned assets in multiple games, enriching gaming experiences and enhancing virtual possessions' utility.",
     },
 
     {
-      title: "Pausable",
+      title: "Play-to-Earn Opportunities",
       content:
-        "You can delay your token movement. It is useful to prohibit trading until all token transactions have been unfrozen.",
+        "NFTs introduce Play-to-Earn (P2E) game mechanics, enabling players to earn valuable NFTs or cryptocurrency through gameplay, tasks, and milestones",
     },
 
     {
-      title: "Access to ownership",
+      title: "Community & Social Engagement",
       content:
-        "You get complete ownership over your token. The token owners also get to mint new tokens and manage them.",
+        "NFT games build vibrant communities, fostering social interactions. Players trade, collaborate, compete, showcase achievements, cultivating a sense of belonging and engagement.",
     },
 
     {
-      title: "Capped",
+      title: "Monetization Opportunities",
       content:
-        "You cannot create more tokens than the token limit specified. This ensures that people don't create more than declared tokens.",
+        "NFT games provide developers with monetization opportunities, including initial NFT sales, transaction fees, royalties, partnerships, and collaborations, fostering sustainable revenue streams.",
     },
   ];
 
@@ -148,8 +166,73 @@ const NftGamming = () => {
     <>
       <Segment1 data={data1} />
       <Segment2 data={data2} />
+      <div className="d-flex align-items-center flex-column gap-5" >
+
+        <div className=" container d-flex flex-column justify-content-center text-center" >
+          <h1 className=" " style={{ fontSize: 30, fontWeight: 800 }} >NFT Games VS Traditional Games </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur odio consequuntur porro natus odit?</p>
+        </div>
+
+        <div className=" px-3    ">
+          <div className="  " style={{ maxWidth: "1000px" }}>
+            <table className="table table-dark shadow-lg  " style={{ border: "2px solid #A243A1", borderRadius: "10px", overflow: "hidden" }}>
+              <thead>
+                <tr className="   "  >
+                  <th className=" py-4 " >Aspect</th>
+                  <th className=" py-4 " >NFT Games</th>
+                  <th className=" py-4 ">Traditional Games</th>
+                </tr>
+              </thead>
+              <tbody className="p-5" >
+                <tr  >
+                  <td className="py-3 w-25 "   >Ownership</td>
+                  <td className="py-3">In-game assets are NFTs, owned by players</td>
+                  <td className="py-3">In-game assets owned by the game company</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Interoperability</td>
+                  <td className="py-3">Cross-game asset usage is possible</td>
+                  <td className="py-3">Limited interoperability</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Economy</td>
+                  <td className="py-3">Player-driven virtual economy</td>
+                  <td className="py-3">Centralized game economy</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Scarcity</td>
+                  <td className="py-3">Limited edition NFTs for scarcity</td>
+                  <td className="py-3">Limited digital scarcity</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Monetization</td>
+                  <td className="py-3">Play-to-earn models, NFT sales</td>
+                  <td className="py-3">Traditional sales and subscriptions</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Decentralization</td>
+                  <td className="py-3">Decentralized on blockchain technology</td>
+                  <td className="py-3">Centralized servers and systems</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Community Impact</td>
+                  <td className="py-3">Player influence on the {"game's"} direction</td>
+                  <td className="py-3">Limited impact on development</td>
+                </tr>
+                <tr>
+                  <td className="py-3">Provenance</td>
+                  <td className="py-3">Transparent asset history on blockchain</td>
+                  <td className="py-3">Proprietary game data structures</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
       <Segment3 data={data3} images={imagesForSeg3} />
       <Segment4 data={data4} />
+
       <Segment5 data={data5} images={imagesForSeg5} />
       <Footer />
     </>

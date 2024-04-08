@@ -16,6 +16,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.text-shadow1 {
+  text-shadow: 5px 5px 10px rgb(149, 80, 2);
+}
 
 @font-face {
   font-family: "TypoGraphica";

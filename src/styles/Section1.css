@@ -1,150 +1,147 @@
-.main{
-    width:100%;
-    min-height: 90vh;
-    background-size: cover;
-    background-color: black;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    
+.main {
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
-.heading{
-    font-size: 50px;
-    font-weight:900;
+ 
+
+.heading {
+  font-size: 50px;
+  font-weight: 900;
 }
-.v1{
+.v1 {
   height: 100% !important;
+}
+.video {
+  width: 100%;
+  object-fit: cover;
 
+  height: 85%;
+  display: flex;
+  position: absolute;
+  opacity: 0.8;
+  right: 0%;
 }
-.video{
-   
-    width: 100%;
-    object-fit: cover;
-    
-    height: 85%;
-    display: flex;
-    position: absolute;
-   opacity: 0.8;
-    right: 0%;
-   
+.trial1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
-.trial1{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
-  
-}
-.left{
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    width:60%;
-    /* margin-left: 3%; */
-    
+.left {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  /* margin-left: 3%; */
 }
 
-.para{
-    font-size: 16px;
+.para {
+  font-size: 16px;
 }
-.know{
-display: flex;
-flex-direction: row;
-gap:4vmax;
-justify-content: center;
-align-items: center;
+.know {
+  display: flex;
+  flex-direction: row;
+  gap: 4vmax;
+  justify-content: center;
+  align-items: center;
 }
-.know2{
-display: flex;
-flex-direction: row;
-margin: 10px 0px;
-justify-content: center;
-align-items: center;
-bottom: 0%;
-position: absolute;
+.know2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  bottom: 0%;
+  position: absolute;
 
-/* margin-left: 18px; */
+  /* margin-left: 18px; */
 }
-.arimg2{
-    width:30px;
-    height: 30px;
-    
+.arimg2 {
+  width: 30px;
+  height: 30px;
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 
- @-webkit-keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+@media (max-width: 768px) {
+  .left {
+    width: 95%;
+    height: 100%;
   }
-  @keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+  .know2 {
+    margin-left: 0px;
+    margin-top: 20px;
   }
-  
- 
-@media (max-width:768px){
-    .left{
-        width: 95%;
-       height: 100%;
-
-    }
-    .know2{
-        margin-left: 0px;
-        margin-top: 20px;
-        
-        
-    }
-    .main{
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-    .heading{
-      font-size: 42px;
-      font-weight:900;
+  .main {
+    min-height: 100vh;
+    overflow-x: hidden;
   }
-  .para{
+  .heading {
+    font-size: 42px;
+    font-weight: 900;
+  }
+  .para {
     font-size: 16px;
-}
-#btn1{
-  font-size: 13px;
-}
+  }
+  #btn1 {
+    font-size: 13px;
+  }
 }
 
-.overlay01{
+.overlay01 {
   width: 100%;
   object-fit: cover;
   height: 100%;
   display: flex;
   position: absolute;
- opacity: 1;
+  opacity: 1;
   right: 0%;
   bottom: 0%;
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.505) 39%, rgba(0, 0, 0, 0.308) 77%, rgba(0,0,0,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.505) 39%,
+    rgba(0, 0, 0, 0.308) 77%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }

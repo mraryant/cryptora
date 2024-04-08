@@ -8,11 +8,12 @@ const Segment1 = (props) => {
             <div
                 className="  "
                 style={{
-                    backgroundImage: `url(${data.smContractHero})`,
+                    backgroundImage: ` url(${data.smContractHero})`,
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: " center",
                 }}
+                 
             >
                 <div className="cryptosec1main  ">
                     <div className='overlay02'></div>

@@ -15,29 +15,39 @@ import PR from './pages/PR';
 // import Services from './service/Services';
 
 // Lazy-loaded components
+import Home from './pages/Home';
 const Services = lazy(() => import('./service/Services'));
 const Service = lazy(() => import('./pages/C-Service'));
-const NFTDev = lazy(() => import('./service/NFTDev'));
-const ICO = lazy(() => import('./service/ICO'));
-const Blockchain = lazy(() => import('./service/Blockchain'));
+
 const Crypto = lazy(() => import('./service/Crypto'));
-const Decentralized = lazy(() => import('./service/Decentralized'));
-const CryptoWallet = lazy(() => import('./service/CryptoWallet'));
-const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
-const ContactUs = lazy(() => import('./pages/ContactUs'))  ;
-import Home from './pages/Home';
-const Aboutus = lazy(() => import('./pages/Aboutus'));
-const PRprice = lazy(() => import('./pages/PRprice'));
-const NftGamming = lazy(() => import('./Components/nftInnerPages/NftGamming'));
-const NftSport = lazy(() => import('./Components/nftInnerPages/NftSport'));
 const SmartContractDev = lazy(() => import('./Components/coinDevInner/SmartContractDev'));
-const NftBuyAndSell = lazy(() => import('./Components/nftInnerPages/NftBuyAndSell'));
 const TokenomicsDesign = lazy(() => import('./Components/coinDevInner/TokenomicsDesign'));
 const WhitePaperDesign = lazy(() => import('./Components/coinDevInner/WhitePaperDesign'));
 const MemeTokenDev = lazy(() => import('./Components/coinDevInner/MemeTokenDev'));
 const StableCoinDev = lazy(() => import('./Components/coinDevInner/StableCoinDev'));
 const IcoIeoStoCoinDev = lazy(() => import('./Components/coinDevInner/IcoIeoStoCoinDev'));
 const MlmDexContractDev = lazy(() => import('./Components/coinDevInner/MlmDexContractDev'));
+
+const NFTDev = lazy(() => import('./service/NFTDev'));
+const NftGamming = lazy(() => import('./Components/nftInnerPages/NftGamming'));
+const NftSport = lazy(() => import('./Components/nftInnerPages/NftSport'));
+const NftBuyAndSell = lazy(() => import('./Components/nftInnerPages/NftBuyAndSell'));
+
+const Decentralized = lazy(() => import('./service/Decentralized'));
+import SpotTradDev from './Components/exchangeDev/SpotTradDev';
+import P2PDev from './Components/exchangeDev/P2PDev';
+import CryptoAlgoTrade from './Components/exchangeDev/CryptoAlgoTrade';
+import BinanceClone from './Components/exchangeDev/BinanceClone';
+import LaunchpadDev from './Components/exchangeDev/LaunchpadDev';
+import WalletDev from './Components/exchangeDev/WalletDev';
+
+const ICO = lazy(() => import('./service/ICO'));
+const Blockchain = lazy(() => import('./service/Blockchain'));
+const CryptoWallet = lazy(() => import('./service/CryptoWallet'));
+const StackingPlatform = lazy(() => import('./service/StackingPlatform'));
+const ContactUs = lazy(() => import('./pages/ContactUs'))  ;
+const Aboutus = lazy(() => import('./pages/Aboutus'));
+const PRprice = lazy(() => import('./pages/PRprice'));
 
 
 
@@ -101,10 +111,17 @@ const App = () => {
             <Route path="Nft-Sport-Development" element={<NftSport />} />
             <Route path="Nft-Buy-And-Sell-Platform" element={<NftBuyAndSell />} />
 
+            <Route path="decentralized-exchange-development" element={<Decentralized />} />
+            <Route path="Spot-Trade-Development" element={<SpotTradDev/> } />
+            <Route path="P2P-Development" element={<P2PDev/> } />
+            <Route path="Crypto-Algo-Trade" element={<CryptoAlgoTrade/> } />
+            <Route path="Binance-Clone" element={<BinanceClone/> } />
+            <Route path="Launchpad-Development" element={<LaunchpadDev/> } />
+            <Route path="wallet-Development" element={<WalletDev/> } />
+
 
             <Route path="ico-marketing" element={<ICO />} />
             <Route path="blockchain-consulting-service" element={<Blockchain />} />
-            <Route path="decentralized-exchange-development" element={<Decentralized />} />
             <Route path="cryptowallet" element={<CryptoWallet />} />
             <Route path="staking-platform-development" element={<StackingPlatform />} />
             <Route path="Contact-us" element={<ContactUs />} />

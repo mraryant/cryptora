@@ -108,12 +108,12 @@ const TopNavbar = () => {
                   <div className="navdiv">
                     <div className="navcontent" style={{ textTransform: 'uppercase' }}>
                       <Link onClick={handleRefresh} to="/decentralized-exchange-development "><span className="navtext">Exchange Development</span></Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">spot Trade Development</Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">P2P Development</Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">Crypto Algo Trade</Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">Binance Clone</Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">Launchpad Development</Link>
-                      <Link onClick={handleRefresh} to="/decentralized-exchange-development ">Wallet Development</Link>
+                      <Link onClick={handleRefresh} to="/Spot-Trade-Development">spot Trade Development</Link>
+                      <Link onClick={handleRefresh} to="/P2P-Development ">P2P Development</Link>
+                      <Link onClick={handleRefresh} to="/Crypto-Algo-Trade ">Crypto Algo Trade</Link>
+                      <Link onClick={handleRefresh} to="/Binance-Clone ">Binance Clone</Link>
+                      <Link onClick={handleRefresh} to="/Launchpad-Development ">Launchpad Development</Link>
+                      <Link onClick={handleRefresh} to="/wallet-Development ">Wallet Development</Link>
                     </div>
                   </div>
                 </div>

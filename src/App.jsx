@@ -34,12 +34,12 @@ const NftSport = lazy(() => import('./Components/nftInnerPages/NftSport'));
 const NftBuyAndSell = lazy(() => import('./Components/nftInnerPages/NftBuyAndSell'));
 
 const Decentralized = lazy(() => import('./service/Decentralized'));
-import SpotTradDev from './Components/exchangeDev/SpotTradDev';
-import P2PDev from './Components/exchangeDev/P2PDev';
-import CryptoAlgoTrade from './Components/exchangeDev/CryptoAlgoTrade';
-import BinanceClone from './Components/exchangeDev/BinanceClone';
-import LaunchpadDev from './Components/exchangeDev/LaunchpadDev';
-import WalletDev from './Components/exchangeDev/WalletDev';
+const SpotTradDev =lazy(() => import('./Components/exchangeDev/SpotTradDev'));
+const P2PDev =lazy(() => import('./Components/exchangeDev/P2PDev'));
+const CryptoAlgoTrade =lazy(() => import('./Components/exchangeDev/CryptoAlgoTrade'));
+const BinanceClone =lazy(() => import('./Components/exchangeDev/BinanceClone'));
+const LaunchpadDev =lazy(() => import('./Components/exchangeDev/LaunchpadDev'));
+const WalletDev =lazy(() => import('./Components/exchangeDev/WalletDev'));
 
 const ICO = lazy(() => import('./service/ICO'));
 const Blockchain = lazy(() => import('./service/Blockchain'));
@@ -87,7 +87,7 @@ const App = () => {
         <Headroom style={{ zIndex: 99 }}>
           <TopNavbar />
         </Headroom>
-
+         
 
         <Suspense fallback={isLoading ? <Loader /> : null} >
 
